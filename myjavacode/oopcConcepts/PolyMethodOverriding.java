@@ -10,28 +10,34 @@ package com.myjavacode.oopcConcepts;
  * <h2>Created Parent class : Owner</h2>
  * <h4>Created Child Class</h4>
  * </p>
- * <ul>
- * <li><b>Employee</b></li>
+ * <ul> 
+ * <li><b>Employee : same method name as owner class</b></li>
+ * <li><b>StaffBoy : same method name as owner class</b></li>
  * </ul>
  */
 class Owner {
 
-	void jobRole() {
+	public void jobRole() {
 		System.out.println("I am Owner Of Company!");
 	}
 
 }
 
-/**
- * <p>
- * <h2>Created Child class : Employee</h2>
- * <h4>Created Same Method as Parent Class</h4>
- * </p>
- */
+
 class Employee extends Owner {
 
-	void jobRole() {
+	@Override
+	public void jobRole() {
 		System.out.println("I am employee of company!!");
+	}
+
+}
+
+class StaffBoy extends Owner {
+
+	@Override
+	public void jobRole() {
+		System.out.println("I am Staff boy of company!!");
 	}
 
 }
@@ -40,11 +46,9 @@ class PolyMethodOverriding {
 
 	//Creating main method
 	public static void main(String args[]) {
-		Employee empObj = new Employee();// creating object For Employee
-		Owner ownObj = new Owner();// creating object For Owner
-
-		ownObj.jobRole();// calling method from owner
-		empObj.jobRole();// calling method from employee
+		new Owner().jobRole();
+		new Employee().jobRole();
+		new StaffBoy().jobRole();
 	}
 
 }
