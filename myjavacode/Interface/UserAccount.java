@@ -5,11 +5,13 @@
 */
 package com.myjavacode.Interface;
 
-
 /**
- *<h3>VaseShop Interface!</h3>
- *<p>This Shop Accept Only Dollar in currency!</p>
- * @author Kartik 
+ * <h3>VaseShop Interface!</h3>
+ * <p>
+ * This Shop Accept Only Dollar in currency!
+ * </p>
+ * 
+ * @author Kartik
  */
 interface VaseShop {
 
@@ -18,8 +20,11 @@ interface VaseShop {
 }
 
 /**
- *<h3>VaseShop Interface!</h3>
- *<p>This Shop Accept Only Rupess in currency!</p>
+ * <h3>VaseShop Interface!</h3>
+ * <p>
+ * This Shop Accept Only Rupess in currency!
+ * </p>
+ * 
  * @author Kartik
  */
 interface FlowerShop {
@@ -30,11 +35,14 @@ interface FlowerShop {
 
 /**
  * <h3>UserCreditCard Class!</h3>
- * <p>Using This class user can purchase any thing in various currency!</p>
+ * <p>
+ * Using This class user can purchase any thing in various currency!
+ * </p>
+ * 
  * @author Kartik
  *
  */
-class UserCreditCard implements VaseShop,FlowerShop {
+class UserCreditCard implements VaseShop, FlowerShop {
 
 	public void ShopAcceptRupee() {
 		System.out.println("Purchase Flower : Payment In Rupees.");
@@ -43,10 +51,11 @@ class UserCreditCard implements VaseShop,FlowerShop {
 	@Override
 	public void ShopAcceptDollar() {
 		System.out.println("Purchase Vase : Payment In Dollars.");
-		
+
 	}
 
 }
+
 public class UserAccount {
 
 	public static void main(String[] args) {
