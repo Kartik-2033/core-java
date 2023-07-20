@@ -3,7 +3,7 @@
 * <p>This Program About Compile-Time Polymorphism : Method Overloading</p>
 *@author Kartik
 */
-package com.myjavacode.oopcConcepts;
+package com.myjavacode.oopsconcepts;
 
 /**
  * <p>

@@ -3,7 +3,7 @@
 * <p>This Program About Inheritance : Multi-level Inheritance</p>
 *@author Kartik
 */
-package com.myjavacode.oopcConcepts;
+package com.myjavacode.oopsconcepts;
 
 /**
  * <p>

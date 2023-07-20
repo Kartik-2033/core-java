@@ -3,7 +3,7 @@
 * <p>This Program About Compile-Time Polymorphism : Method Overriding</p>
 *@author Kartik
 */
-package com.myjavacode.oopcConcepts;
+package com.myjavacode.oopsconcepts;
 
 /**
  * <p>
@@ -18,17 +18,16 @@ package com.myjavacode.oopcConcepts;
 class Owner {
 
 	public void jobRole() {
-		System.out.println("I am Owner Of Company!");
+		System.out.println("I am owner Of company!");
 	}
 
 }
-
 
 class Employee extends Owner {
 
 	@Override
 	public void jobRole() {
-		System.out.println("I am employee of company!!");
+		System.out.println("I am employee of company!");
 	}
 
 }
@@ -37,7 +36,7 @@ class StaffBoy extends Owner {
 
 	@Override
 	public void jobRole() {
-		System.out.println("I am Staff boy of company!!");
+		System.out.println("I am Staff boy of company!");
 	}
 
 }

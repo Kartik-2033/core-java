@@ -3,7 +3,7 @@
 * <p>This Program About Find Interest Rate OF Two Bank!</p>
 *@author Kartik
 */
-package com.myjavacode.oopcConcepts;
+package com.myjavacode.oopsconcepts;
 /**
 * <p>
 * <h2>Created World bank class</h2>

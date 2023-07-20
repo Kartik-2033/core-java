@@ -3,7 +3,7 @@
 *<p>This Program About Inheritance : Hybrid Inheritance</p>
 *@author Kartik
 */
-package com.myjavacode.oopcConcepts;
+package com.myjavacode.oopsconcepts;
 /**
  * <p>
  * <h2>Created Grandfather class</h2>
