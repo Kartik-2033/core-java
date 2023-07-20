@@ -4,6 +4,7 @@
 *@author Kartik
 */
 package com.myjavacode.collections;
+
 import java.util.HashMap;
 import java.util.Map.*;
 
@@ -20,16 +21,16 @@ public class TenthMarksheets {
 		studentSheet.put("obtainMarks", 628);
 		studentSheet.put("firstClass", 0);
 
-		//display Student data
+		// display Student data
 		System.out.println("Student Enrollment Number : " + studentSheet.get("enrollNo"));
 		System.out.println("Student Obtain Marks : " + studentSheet.get("obtainMarks"));
 		System.out.println("Student Pass With First Class : " + studentSheet.containsValue(0));
 		System.out.println("Check Data is empty : " + studentSheet.isEmpty());
 
-		//finding key of provided value
-		for(Entry<String, Integer> startPoint: studentSheet.entrySet()) {
+		// finding key of provided value
+		for (Entry<String, Integer> startPoint : studentSheet.entrySet()) {
 			if (startPoint.getValue() == 700) {
-				System.out.println("The Key Of 700 is : "+startPoint.getKey());
+				System.out.println("The Key Of 700 is : " + startPoint.getKey());
 			}
 		}
 	}
