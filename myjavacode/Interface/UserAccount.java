@@ -1,4 +1,4 @@
-package com.myjavacode.Interface;
+package com.myjavacode.interface;
 
 /**
  * <h3>Interface!</h3>
@@ -14,7 +14,7 @@ package com.myjavacode.Interface;
  */
 interface VaseShop {
 
-	void ShopAcceptDollar();
+	void shopAcceptDollar();
 
 }
 
@@ -28,7 +28,7 @@ interface VaseShop {
  */
 interface FlowerShop {
 
-	void ShopAcceptRupee();
+	void shopAcceptRupee();
 
 }
 
@@ -43,12 +43,12 @@ interface FlowerShop {
  */
 class UserCreditCard implements VaseShop, FlowerShop {
 
-	public void ShopAcceptRupee() {
+	public void shopAcceptRupee() {
 		System.out.println("Purchase Flower : Payment In Rupees.");
 	}
 
 	@Override
-	public void ShopAcceptDollar() {
+	public void shopAcceptDollar() {
 		System.out.println("Purchase Vase : Payment In Dollars.");
 	}
 
@@ -58,8 +58,8 @@ public class UserAccount {
 
 	public static void main(String[] args) {
 		UserCreditCard userPayment = new UserCreditCard();
-		userPayment.ShopAcceptDollar();
-		userPayment.ShopAcceptRupee();
+		userPayment.shopAcceptDollar();
+		userPayment.shopAcceptRupee();
 	}
 
 }
