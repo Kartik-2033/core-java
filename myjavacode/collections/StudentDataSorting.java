@@ -1,13 +1,12 @@
-/**
-*<h3>Comparable-Comparator Interface!</h3>
-*<p>This Program show sort data using comparable & comparator!</p>
-*@author Kartik
-*/
 package com.myjavacode.collections;
 
 import java.util.*;
 
 /**
+ * <h3>Comparable-Comparator Interface!</h3>
+ * <p>
+ * This Program show sort data using comparable & comparator!
+ * </p>
  * <h3>StudentData Class!</h3>
  * <p>
  * This Class implements Comparable<Studentdat> Interface!

@@ -1,14 +1,12 @@
-/**
-*<h3>File Handling!</h3>
-*<p>This Program show how to delete file!</p>
-*@author Kartik
-*/
 package com.myjavacode.filehandlingExtra;
+
 import java.io.*;
 import java.util.Scanner;
 
 /**
- * <p>Use {@link #DeleteFile()} to delete file.
+ * <p>
+ * Use {@link #DeleteFile()} to delete file.
+ * 
  * @author Kartik
  *
  */
@@ -19,7 +17,7 @@ public class DeleteFile {
 			Scanner userInput = new Scanner(System.in);
 
 			System.out.println("Enter absolute path of file you want delete :");
-			String filePath = userInput.next(); //Take file path input from user
+			String filePath = userInput.next(); // Take file path input from user
 
 			File deleteFile = new File(filePath);
 

@@ -1,13 +1,16 @@
-/**
-*<h3>Collection-Maps!</h3>
-*<p>This Program show how Student Tenth Result!</p>
-*@author Kartik
-*/
 package com.myjavacode.collections;
 
 import java.util.HashMap;
 import java.util.Map.*;
 
+/**
+ * <h3>Collection-Maps!</h3>
+ * <p>
+ * This Program show how Student Tenth Result!
+ * </p>
+ * 
+ * @author Kartik
+ */
 public class TenthMarksheets {
 
 	public static void main(String[] args) {
@@ -21,13 +24,13 @@ public class TenthMarksheets {
 		studentSheet.put("obtainMarks", 628);
 		studentSheet.put("firstClass", 0);
 
-		// display Student data
+		// Display Student data
 		System.out.println("Student Enrollment Number : " + studentSheet.get("enrollNo"));
 		System.out.println("Student Obtain Marks : " + studentSheet.get("obtainMarks"));
 		System.out.println("Student Pass With First Class : " + studentSheet.containsValue(0));
 		System.out.println("Check Data is empty : " + studentSheet.isEmpty());
 
-		// finding key of provided value
+		// Finding key of provided value
 		for (Entry<String, Integer> startPoint : studentSheet.entrySet()) {
 			if (startPoint.getValue() == 700) {
 				System.out.println("The Key Of 700 is : " + startPoint.getKey());

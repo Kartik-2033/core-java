@@ -1,14 +1,12 @@
-/**
-*<h3>File Handling!</h3>
-*<p>This Program show how to create new file!</p>
-*@author Kartik
-*/
 package com.myjavacode.filehandlingExtra;
+
 import java.io.*;
 import java.util.Scanner;
 
 /**
- * <p>Use {@link #CreateFile()} to create new file.
+ * <p>
+ * Use {@link #CreateFile()} to create new file.
+ * 
  * @author Kartik
  *
  */
@@ -16,8 +14,8 @@ public class CreateUserDataFile {
 
 	public void CreateFile() {
 		/**
-		 * filePath : use to where file is create.
-		 * fileName : use to What to name the file. 
+		 * filePath : Use to where file is create. 
+		 * fileName : use to What to name thefile.
 		 */
 		String filePath = "", fileName = "";
 
@@ -31,12 +29,12 @@ public class CreateUserDataFile {
 			System.out.println("For Example : Path = D:/(Folder name)/");
 			filePath = userInput.next();
 
-			// Creating an object of a File  
-			File createFile = new File( filePath + "" + fileName + ".txt");
+			// Creating an object of a File
+			File createFile = new File(filePath + "" + fileName + ".txt");
 
 			// Make Condition If file is create or not
-			if(createFile.createNewFile()) {
-				System.out.println( fileName + " File Is successfully Created.");
+			if (createFile.createNewFile()) {
+				System.out.println(fileName + " File Is successfully Created.");
 			} else {
 				System.out.println("File already exist in directory.");
 			}

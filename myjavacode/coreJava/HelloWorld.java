@@ -1,14 +1,14 @@
-package com.myjavacode.coreJava;
+package com.myjavacode.corejava;
 
 /**
-*Write a program to print Hello world
-*@author Kartik
-*/
+ * Write a program to print Hello world
+ * 
+ * @author Kartik
+ */
 class HelloWorld {
 
 	// main method created
-	public static void main(String []args) {
-		// to print hello world
+	public static void main(String[] args) {
 		System.out.println("Hello World!");
 	}
 

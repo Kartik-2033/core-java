@@ -1,4 +1,4 @@
-package com.myjavacode.coreJava;
+package com.myjavacode.corejava;
 
 /**
  * <b>
@@ -6,11 +6,12 @@ package com.myjavacode.coreJava;
  * This is a program for Sum Of Two Number Using Constructor.
  * </p>
  * </b>
+ * 
  * @author Kartik
  */
 class Constructor {
 
-	// default Constructor created
+	// Default Constructor created
 	Constructor() {
 		// Creating two defVar1 & defVar2
 		int defVar1 = 5;

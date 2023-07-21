@@ -1,10 +1,10 @@
-/** 
-*<h3>Inheritance!</h3>
-*<p>This Program About Inheritance : Hybrid Inheritance</p>
-*@author Kartik
-*/
 package com.myjavacode.oopsconcepts;
+
 /**
+ * <h3>Inheritance!</h3>
+ * <p>
+ * This Program About Inheritance : Hybrid Inheritance
+ * </p>
  * <p>
  * <h2>Created Grandfather class</h2>
  * <h4>Created Method</h4>
@@ -64,7 +64,7 @@ interface Mother {
  * <li><b>displayRel : Display realtionship</b></li>
  * </ul>
  */
-class Son extends Father implements Mother{
+class Son extends Father implements Mother {
 
 	public void displayRelSon() {
 		System.out.println("He is Suresh (Son) And Son Of Ramesh (Father) And Grnadson Of Kishor!");

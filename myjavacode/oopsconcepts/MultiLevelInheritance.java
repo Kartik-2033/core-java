@@ -1,11 +1,10 @@
-/** 
-*<h3>Inheritance!</h3>
-* <p>This Program About Inheritance : Multi-level Inheritance</p>
-*@author Kartik
-*/
 package com.myjavacode.oopsconcepts;
 
 /**
+ * <h3>Inheritance!</h3>
+ * <p>
+ * This Program About Inheritance : Multi-level Inheritance
+ * </p>
  * <p>
  * <h2>Created Grandfather class</h2>
  * <h4>Created Method</h4>
@@ -20,13 +19,14 @@ package com.myjavacode.oopsconcepts;
  * <li><b>MulSonClass</b></li>
  * </ul>
  */
-class MulGrandfather  {
+class MulGrandfather {
 
 	void grandfatherMethod() {
 		System.out.println("I am thier Grand father!");
 	}
 
 }
+
 /**
  * <p>
  * <h2>Created Father class Inherited GrandFather class</h2>
@@ -65,9 +65,7 @@ public class MultiLevelInheritance {
 
 	// created main method
 	public static void main(String args[]) {
-
 		MulSonClass baseObj = new MulSonClass(); // Created base Object
-
 		baseObj.grandfatherMethod(); // CallingSecond Grand father Class with base Object
 		baseObj.parentBaseMethod(); // Calling Parent Child Class with base Object
 		baseObj.sonMethod(); // Calling Son Child Class with base Object

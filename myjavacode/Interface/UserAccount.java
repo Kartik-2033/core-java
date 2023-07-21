@@ -1,11 +1,10 @@
-/**
-*<h3>Interface!</h3>
-*<p>This Program Show How User Can Shop Anything from his credit card!</p>
-*@author Kartik
-*/
 package com.myjavacode.Interface;
 
 /**
+ * <h3>Interface!</h3>
+ * <p>
+ * This Program Show How User Can Shop Anything from his credit card!
+ * </p>
  * <h3>VaseShop Interface!</h3>
  * <p>
  * This Shop Accept Only Dollar in currency!
@@ -51,7 +50,6 @@ class UserCreditCard implements VaseShop, FlowerShop {
 	@Override
 	public void ShopAcceptDollar() {
 		System.out.println("Purchase Vase : Payment In Dollars.");
-
 	}
 
 }
@@ -60,7 +58,6 @@ public class UserAccount {
 
 	public static void main(String[] args) {
 		UserCreditCard userPayment = new UserCreditCard();
-
 		userPayment.ShopAcceptDollar();
 		userPayment.ShopAcceptRupee();
 	}

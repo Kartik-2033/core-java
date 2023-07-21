@@ -1,11 +1,10 @@
-/** 
-*<h3>Inheritance!</h3>
-* <p>This Program About Inheritance : Hierarchical Inheritance</p>
-*@author Kartik
-*/
 package com.myjavacode.oopsconcepts;
 
 /**
+ * <h3>Inheritance!</h3>
+ * <p>
+ * This Program About Inheritance : Hierarchical Inheritance
+ * </p>
  * <p>
  * <h2>Created Parent class</h2>
  * <h4>Created Method</h4>
@@ -28,14 +27,14 @@ class HirSonClass {
 }
 
 /**
-* <p>
-* <h2>Created First Child class Inherited Parent Class</h2>
-* <h4>Created Method</h4>
-* </p>
-* <ul>
-* <li><b>childBaseMethodOne : First Child Base Method</b></li>
-* </ul>
-*/
+ * <p>
+ * <h2>Created First Child class Inherited Parent Class</h2>
+ * <h4>Created Method</h4>
+ * </p>
+ * <ul>
+ * <li><b>childBaseMethodOne : First Child Base Method</b></li>
+ * </ul>
+ */
 class HirFatherClass extends HirSonClass {
 
 	void fatherMethod() {
@@ -66,7 +65,7 @@ public class HierarchicalInheritance {
 		HirFatherClass baseFatObj = new HirFatherClass(); // Created base Object For Father Class
 		HirMotherClass baseMotObj = new HirMotherClass(); // Created base Object For Mother Class
 
-		baseFatObj.fatherMethod(); // Calling Father Class 
+		baseFatObj.fatherMethod(); // Calling Father Class
 		baseFatObj.sonMethod(); // Calling Son Class with base Object Father
 
 		baseMotObj.motherMethod(); // Calling Mother class
