@@ -9,14 +9,29 @@ package com.myjavacode.corejava;
 
 class OneToTen {
 
-	public static void main(String[] args) {
-		// Created variable For Loop Start
-		int printNumber = 1;
-		// Starting do while loop
+	// Printing data using while loop
+	static void whileLoop() {
+		System.out.println("Using While Loop");
+		int start = 1;
+		while (start <= 10) {
+			System.out.print(start);
+			start++;
+		}
+	}
+
+	// Printing data using do while loop
+	static void doWhileLoop() {
+		System.out.println("Using Do While Loop");
+		int start = 1;
 		do {
-			System.out.println(printNumber);
-			printNumber++;
-		} while (printNumber <= 10);
+			System.out.print(start);
+			start++;
+		} while (start <= 10);
+	}
+
+	public static void main(String[] args) {
+		whileLoop();
+		doWhileLoop();
 	}
 
 }
