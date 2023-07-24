@@ -12,14 +12,8 @@ package com.myjavacode.oopsconcepts;
  * <ul>
  * <li><b>grandfatherMethod : Grand Father method</b></li>
  * </ul>
- * <h4>Created Two Child Class</h4>
- * </p>
- * <ul>
- * <li><b>MulFatherClass</b></li>
- * <li><b>MulSonClass</b></li>
- * </ul>
  */
-class MulGrandfather {
+class Grandfather {
 
 	void grandfatherMethod() {
 		System.out.println("I am thier Grand father!");
@@ -33,12 +27,12 @@ class MulGrandfather {
  * <h4>Created Method</h4>
  * </p>
  * <ul>
- * <li><b>parentBaseMethod : Parent Base Method</b></li>
+ * <li><b>fatherMethod : Parent Base Method</b></li>
  * </ul>
  */
-class MulFatherClass extends MulGrandfather {
+class FatherClass extends Grandfather {
 
-	void parentBaseMethod() {
+	void fatherMethod() {
 		System.out.println("He is My Son!");
 	}
 
@@ -53,7 +47,7 @@ class MulFatherClass extends MulGrandfather {
  * <li><b>sonMethod : Son Method</b></li>
  * </ul>
  */
-class MulSonClass extends MulFatherClass {
+class SonClass extends FatherClass {
 
 	void sonMethod() {
 		System.out.println("He is My Garnd Son!");
@@ -65,10 +59,10 @@ public class MultiLevelInheritance {
 
 	// created main method
 	public static void main(String args[]) {
-		MulSonClass baseObj = new MulSonClass(); // Created base Object
-		baseObj.grandfatherMethod(); // CallingSecond Grand father Class with base Object
-		baseObj.parentBaseMethod(); // Calling Parent Child Class with base Object
-		baseObj.sonMethod(); // Calling Son Child Class with base Object
+		SonClass sonClass = new SonClass(); // Created base Object
+		sonClass.grandfatherMethod(); // CallingSecond Grand father Class with base Object
+		sonClass.fatherMethod(); // Calling Parent Child Class with base Object
+		sonClass.sonMethod(); // Calling Son Child Class with base Object
 	}
 
 }

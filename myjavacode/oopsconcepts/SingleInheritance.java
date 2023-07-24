@@ -15,7 +15,7 @@ package com.myjavacode.oopsconcepts;
  */
 class FatherClass {
 
-	void parentBaseMethod() {
+	void fatherMethod() {
 		System.out.println("I am His father!");
 	}
 
@@ -32,7 +32,7 @@ class FatherClass {
  */
 class SonClass extends FatherClass {
 
-	void childBaseMethod() {
+	void sonMethod() {
 		System.out.println("He is my Son!");
 	}
 
@@ -42,10 +42,9 @@ public class SingleInheritance {
 
 	// created main method
 	public static void main(String args[]) {
-		SonClass baseObj = new SonClass(); // Created base Object
-
-		baseObj.parentBaseMethod(); // Calling Parent Class with base Object
-		baseObj.childBaseMethod(); // Calling Child Class with base Object
+		SonClass sonClass = new SonClass(); // Created Object
+		sonClass.fatherMethod(); // Calling Parent Class 
+		sonClass.sonMethod(); // Calling Child Class 
 	}
 
 }

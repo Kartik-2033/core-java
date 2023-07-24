@@ -6,64 +6,57 @@ package com.myjavacode.oopsconcepts;
  * This Program About Inheritance : Hierarchical Inheritance
  * </p>
  * <p>
- * <h2>Created Parent class</h2>
- * <h4>Created Method</h4>
+ * <h2>Created SonClass class</h2>
  * </p>
- * <ul>
- * <li><b>MulParentClass : Parent Base Method</b></li>
- * </ul>
- * <h4>Created Two Child Class</h4>
- * </p>
- * <ul>
- * <li><b>FirstChildClass</b></li>
- * <li><b>SecondChildClass</b></li>
- * </ul>
  */
-class HirSonClass {
+class SonClass {
 
 	void sonMethod() {
 		System.out.println("He His My Son!!");
 	}
+
 }
 
 /**
  * <p>
- * <h2>Created First Child class Inherited Parent Class</h2>
+ * <h2>Created Father class extend SonClass</h2>
  * <h4>Created Method</h4>
  * </p>
  * <ul>
- * <li><b>childBaseMethodOne : First Child Base Method</b></li>
+ * <li><b>fatherMethod : Print data</b></li>
  * </ul>
  */
-class HirFatherClass extends HirSonClass {
+class FatherClass extends SonClass {
 
 	void fatherMethod() {
 		System.out.println("I am His Father!");
 	}
+
 }
 
 /**
  * <p>
- * <h2>Created Second Child class Inherited Parent Class</h2>
+ * <h2>Created Mother Child class extend SonClass</h2>
  * <h4>Created Method</h4>
  * </p>
  * <ul>
- * <li><b>childBaseMethodTwo : Second Child Base Method</b></li>
+ * <li><b>motherMethod : Print data</b></li>
  * </ul>
  */
-class HirMotherClass extends HirSonClass {
+class MotherClass extends SonClass {
 
 	void motherMethod() {
 		System.out.println("I am his Mother!");
 	}
+
 }
 
 public class HierarchicalInheritance {
 
-	// created main method
+	// Created main method
 	public static void main(String args[]) {
-		HirFatherClass baseFatObj = new HirFatherClass(); // Created base Object For Father Class
-		HirMotherClass baseMotObj = new HirMotherClass(); // Created base Object For Mother Class
+		FatherClass baseFatObj = new FatherClass(); // Created base Object For Father Class
+		MotherClass baseMotObj = new MotherClass(); // Created base Object For Mother Class
 
 		baseFatObj.fatherMethod(); // Calling Father Class
 		baseFatObj.sonMethod(); // Calling Son Class with base Object Father

@@ -30,9 +30,9 @@ public class PolyMethodOverloading {
 
 	// creating main method
 	public static void main(String[] args) {
-		System.out.println("Method With two arguement : " + PolyOuter.sumMethod(10, 10)); // calling two parameterized
+		System.out.println("Method With two arguement : " + PolyOuter.sumMethod(10, 10)); // Calling two parameterized
 																							// method
-		System.out.println("Method With three arguement : " + PolyOuter.sumMethod(10, 10, 10)); // calling two
+		System.out.println("Method With three arguement : " + PolyOuter.sumMethod(10, 10, 10)); // Calling two
 																								// parameterized method
 	}
 
