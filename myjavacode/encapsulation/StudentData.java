@@ -8,11 +8,10 @@ package com.myjavacode.encapsulation;
  * </p>
  * <p>
  * <h2>Created Student Data class</h2>
- * <h4>Created Two Variable</h4>
  * </p>
  * <ul>
- * <li><b>setStudentRollNo : Set Student Roll Number</b></li>
- * <li><b>setStudentName : Set Student Roll Name</b></li>
+ * <li><b>setStudentRollNo method : Set Student Roll Number</b></li>
+ * <li><b>setStudentName method : Set Student Name</b></li>
  * </ul>
  */
 public class StudentData {
