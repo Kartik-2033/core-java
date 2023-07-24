@@ -33,7 +33,7 @@ public class BinarySearch {
 		int[] myArray = { 1, 2, 3, 4, 5, 6, 7 };
 		System.out.println("Array : " + Arrays.toString(myArray)); // Print an Array using standard library Arrays
 
-		// taking input from user
+		// Taking input from user
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter Your Element : ");
 		int enterElement = scanner.nextInt();

@@ -8,7 +8,7 @@ import java.util.Scanner;
  * <p>
  * This Program Show How To Find Index Of Arrays Using Linear Serach!
  * </p>
- * <h2>Created LinearSearch</h2>
+ * <h2>Created LinearSearch Class</h2>
  * <h4>Created findIndex method</h4>
  * <p>
  * This Method Used to find index of array
@@ -33,10 +33,7 @@ public class LinearSearch {
 
 		// Traverse in array
 		while (arrayElement < lengthArray) {
-			/*
-			 * If the arrayElement is enterElement are both same. Then return index of
-			 * element.
-			 */
+			// Check arrayElement and enterElement are same or not
 			if (myArray[arrayElement] == enterElement) {
 				return arrayElement;
 			} else {
