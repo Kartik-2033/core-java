@@ -22,14 +22,14 @@ public class WriteDataInFile {
 
 			// Checking file exist or not
 			if (infoFile.exists()) {
-				// creating FileWriter object to write in file
+				// Creating FileWriter object to write in file
 				FileWriter writerObject = new FileWriter(filePath);
 				writerObject.write("Hello My Name Is Kartik.");
 				writerObject.close();
 				userInput.close();
 				System.out.println("Content Added successfully in File.");
 			} else {
-				System.out.println("file Does not exist in location.");
+				System.out.println("File Does not exist in location.");
 			}
 		} catch (Exception exeObj) {
 			System.out.println("An unexpected error is occurred. Sorry For inconvenience.");

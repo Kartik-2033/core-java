@@ -38,7 +38,6 @@ public class FileInfo {
 			} else {
 				System.out.println((infoFile.getName()) + " is not readable.");
 			}
-
 			// Getting the length of the file in byte
 			System.out.println("The size of the file in bytes is: " + infoFile.length());
 		} else {

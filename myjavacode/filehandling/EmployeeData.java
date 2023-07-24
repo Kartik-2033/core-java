@@ -5,17 +5,17 @@ import java.util.Scanner;
 
 /**
  * <p>
- * Use {@link #CreateFile()} to create new file.
+ * Use {@link #createFile()} to create new file.
  * 
  * @author Kartik
  *
  */
 public class EmployeeData {
 
-	public void CreateFile() {
+	public void createFile() {
 		/**
-		 * filePath : Use to where file is create. fileName : use to What to name the
-		 * file.
+		 * filePath : Use to where file is create. 
+		 * fileName : use to What to name the file.
 		 */
 		String filePath = "", fileName = "";
 
@@ -40,16 +40,13 @@ public class EmployeeData {
 			if (createFile.exists()) {
 				// Creating FileWriter object to write in file
 				FileWriter writerObject = new FileWriter(filePath + "" + fileName + ".txt");
-
 				writerObject.write("Name : Kartik \nAge : 22 \nEmail : kartikpanchal629@gmail.com.");
-
 				writerObject.close();
 				System.out.println("Content Added successfully in File.");
 			} else {
 				System.out.println("file Does not exist in location.");
 			}
 			userInput.close();
-
 		} catch (IOException exeObj) {
 			System.out.println("An unexpected error is occurred");
 			exeObj.printStackTrace();
@@ -60,7 +57,7 @@ public class EmployeeData {
 
 	public static void main(String[] args) {
 		EmployeeData userRegister = new EmployeeData();
-		userRegister.CreateFile();
+		userRegister.createFile();
 	}
 
 }

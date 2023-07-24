@@ -15,12 +15,9 @@ public class DeleteFile {
 	public static void main(String[] args) {
 		try {
 			Scanner userInput = new Scanner(System.in);
-
 			System.out.println("Enter absolute path of file you want delete :");
 			String filePath = userInput.next(); // Take file path input from user
-
 			File deleteFile = new File(filePath);
-
 			if (deleteFile.delete()) {
 				System.out.println((deleteFile.getName()) + " file is deleted successfully");
 			} else {

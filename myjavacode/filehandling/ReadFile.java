@@ -14,17 +14,14 @@ public class ReadFile {
 
 	public static void main(String[] args) {
 		Scanner userInput = new Scanner(System.in);
-
 		System.out.println("Enter absolute path of the file :");
 		String filePath = userInput.next(); // Take file path input from user
 
 		// Creating File Object
 		File infoFile = new File(filePath);
-
 		try {
 			// Creating object to read data from file
 			Scanner fileReader = new Scanner(infoFile);
-
 			// Start while l;oo
 			while (fileReader.hasNextLine()) {
 				String fileData = fileReader.nextLine();

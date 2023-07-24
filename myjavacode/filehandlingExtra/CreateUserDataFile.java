@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 /**
  * <p>
- * Use {@link #CreateFile()} to create new file.
+ * Use {@link #createFile()} to create new file.
  * 
  * @author Kartik
  *
@@ -15,7 +15,7 @@ public class CreateUserDataFile {
 	public void CreateFile() {
 		/**
 		 * filePath : Use to where file is create. 
-		 * fileName : use to What to name thefile.
+		 * fileName : Use to what to name thefile.
 		 */
 		String filePath = "", fileName = "";
 
@@ -38,16 +38,12 @@ public class CreateUserDataFile {
 			} else {
 				System.out.println("File already exist in directory.");
 			}
-
 			userInput.close();
-
 		} catch (IOException exeObj) {
 			System.out.println("An unexpected error is occurred");
 			exeObj.printStackTrace();
-
 		} catch (Exception exeObj) {
 			System.out.println("An unexpected error is occurred. Sorry For inconvenience.");
-
 		}
 	}
 
