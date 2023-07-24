@@ -1,4 +1,4 @@
-package com.myjavacode.collections;
+package com.myjavacode.collection;
 
 import java.util.*;
 
@@ -9,46 +9,32 @@ import java.util.*;
  * </p>
  * <h3>StudentData Class!</h3>
  * <p>
- * This Class implements Comparable<Studentdat> Interface!
+ * This Class implements Comparable<StudentData> Interface!
  * </p>
  * 
  * @author Kartik
  */
 class StudentData implements Comparable<StudentData> {
 
-	// Creating Two Local Variable
+	// Creating two local variable
 	String studentName;
 	int studentAge;
 
-	/**
-	 * <h2>Created findIndex method</h2>
-	 * <p>
-	 * This Method Used to find index of array
-	 * </p>
-	 * 
-	 * @param studentName : String data
-	 * @param studentAge  : int data
-	 */
 	public StudentData(String studentName, int studentAge) {
 		this.studentName = studentName;
 		this.studentAge = studentAge;
 	}
 
-	/*
-	 * <h4>getName Method</h4>
-	 * 
-	 * @return Student name
-	 */
 	public String getName() {
 		return studentName;
 	}
 
 	@Override
-	public int compareTo(StudentData ThatStudent) {
-		if (this.studentAge > ThatStudent.studentAge) // Check the condition
+	public int compareTo(StudentData thatStudent) {
+		if (this.studentAge > thatStudent.studentAge) // Check the condition
 			return 1; // If true than swap the data
 		else
-			return -1; // if false than leave the data as it is
+			return -1; // If false than leave the data as it is
 	}
 
 }
@@ -66,19 +52,23 @@ public class StudentDataSorting {
 
 	public static void main(String[] args) {
 		List<StudentData> studentList = new ArrayList<>();
-		studentList.add(new StudentData("Paruu", 21));
+		studentList.add(new StudentData("Kartik", 21));
 		studentList.add(new StudentData("John", 12));
-		studentList.add(new StudentData("Kartik", 18));
+		studentList.add(new StudentData("Parru", 18));
 		studentList.add(new StudentData("Sonaa", 20));
 
+		System.out.println(": Data Without Sorted :");
+		for (StudentData student : studentList)
+			System.out.println("Student Name : " + (student.getName()) + " Age : " + (student.studentAge));
+
 		// Sorting data using Comparable
-		System.out.println(": Data Sorting According Thier Age(ASC) :");
+		System.out.println("\n: Data Sorting According Their Age(ASC) :");
 		Collections.sort(studentList);
 		for (StudentData student : studentList)
 			System.out.println("Student Name : " + (student.getName()) + " Age : " + (student.studentAge));
 
 		// Sorting data using Comparator
-		System.out.println("\n: Data Sorting According Thier Name(ASC) :");
+		System.out.println("\n: Data Sorting According Their Name(ASC) :");
 		// Created Comparator object
 		NameComparator comObj = new NameComparator();
 		Collections.sort(studentList, comObj);

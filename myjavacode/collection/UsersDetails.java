@@ -1,4 +1,4 @@
-package com.myjavacode.collections;
+package com.myjavacode.collection;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -16,7 +16,7 @@ import java.util.Scanner;
 public class UsersDetails {
 
 	public static void main(String[] args) {
-		// userDetailsList : Creating Empty list to store data
+		// 'userDetailsList' : Creating Empty list to store data
 		ArrayList<String> userDetailsList = new ArrayList<String>();
 
 		Scanner scanner = new Scanner(System.in);

@@ -1,4 +1,4 @@
-package com.myjavacode.collections;
+package com.myjavacode.collection;
 
 import java.util.HashMap;
 import java.util.Map.*;
@@ -6,9 +6,8 @@ import java.util.Map.*;
 /**
  * <h3>Collection-Maps!</h3>
  * <p>
- * This Program show how Student Tenth Result!
+ * This program show Student's Tenth Result!
  * </p>
- * 
  * @author Kartik
  */
 public class TenthMarksheets {
