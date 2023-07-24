@@ -18,9 +18,9 @@ public class TryCatchFinally {
 	public static void main(String[] args) {
 		int varOne = 0, varTwo = 0, varThird = 0;
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Enter First Interger Number : "); // Take Input From User
+		System.out.println("Enter First Number : "); 
 		varOne = scanner.nextInt();
-		System.out.println("Enter Second Interger Number : ");
+		System.out.println("Enter Second Number : ");
 		varTwo = scanner.nextInt();
 
 		// Start try, catch, & finally block
