@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * <h3>Check Age!</h3>
  * <p>
- * This Program Show Your Above 18 Or Not
+ * This Program show your are above 18 or not
  * </p>
  * 
  * @author Kartik

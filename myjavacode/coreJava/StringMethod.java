@@ -27,13 +27,13 @@ public class StringMethod {
 
 		System.out.println("Find Character At Index Of 2 in First Name : " + firstName.charAt(2));
 
-		// concat Append lastName at end Of firstName
+		// 'concat' = Append lastName at end Of firstName
 		System.out.println("Append last name After first Name : " + firstName.concat(lastName));
 
-		// equals Append lastName at end Of firstName
+		// '.equals' = Compare First name And last name
 		System.out.println("Compare First name And last name : " + firstName.equals(lastName));
 
-		// indexOf Search a string for the first occurrence of "t":
+		// 'indexOf' = Search a string for the first occurrence of "t":
 		System.out.println("Return Index Value Of 't' : " + firstName.indexOf("t"));
 		stringScanner.close();
 	}

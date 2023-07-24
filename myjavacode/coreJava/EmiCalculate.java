@@ -14,8 +14,8 @@ public class EmiCalculate {
 
 	// Function to calculate EMI
 	static float emiCalculate(float loanAmount, float interestRate, float yearTime) {
-		interestRate = interestRate / (12 * 100); // one month interest
-		yearTime = yearTime * 12; // one month period
+		interestRate = interestRate / (12 * 100); // One month interest
+		yearTime = yearTime * 12; // One month period
 
 		// Applying Formula To Count emi
 		float emiCount = (loanAmount * interestRate * (float) Math.pow(1 + interestRate, yearTime))

@@ -6,30 +6,31 @@ package com.myjavacode.corejava;
  * @author Kartik
  */
 
-class Parent {
+class SuperClass {
 
-	// Instance variable
-	int parentVar1 = 10;
-	// Static variable
-	static int parentVar2 = 20;
+	void printData() {
+		System.out.println("Super Class Called.");
+	}
 
 }
 
-class ThisSuperVariable extends Parent {
+class ThisSuperVariable extends SuperClass {
 
-	@SuppressWarnings("static-access")
-	void innerMethod() {
-		// Refer To Current Class
-		this.parentVar1 = 100;
-		System.out.println("Inner Class Variable = " + (parentVar1));
-		// Refer To Parent class
-		System.out.println("Parent Class Variable = " + (super.parentVar2));
+	void printData() {
+		System.out.println("ThisSuperVariable Class Called.");
+	}
+
+	void callMethods() {
+		// 'this' invoke current class "ThisSuperVariable" prinData() mehtod
+		this.printData();
+		// 'super' invoke current class "SuperClass" prinData() mehtod
+		super.printData();
 	}
 
 	// Creating main method
 	public static void main(String[] args) {
-		// Calling inner method
-		new ThisSuperVariable().innerMethod();
+		ThisSuperVariable thisSuperVariable = new ThisSuperVariable();
+		thisSuperVariable.callMethods();
 	}
 
 }
