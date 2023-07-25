@@ -3,11 +3,11 @@ package com.myjavacode.interface;
 /**
  * <h3>Interface!</h3>
  * <p>
- * This Program Show How User Can Shop Anything from his credit card!
+ * This Program Show How User Can Shop Anything from his credit card.
  * </p>
  * <h3>VaseShop Interface!</h3>
  * <p>
- * This Shop Accept Only Dollar in currency!
+ * This Shop Accept Only Dollar in currency.
  * </p>
  * 
  * @author Kartik
