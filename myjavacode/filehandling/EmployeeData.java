@@ -43,7 +43,7 @@ public class EmployeeData {
 				writerObject.close();
 				System.out.println("Content Added successfully in File.");
 			} else {
-				System.out.println("file Does not exist in location.");
+				System.out.println("File Does not exist in location.");
 			}
 			userInput.close();
 		} catch (IOException exeObj) {

@@ -24,7 +24,7 @@ import java.util.Scanner;
  */
 public class BinarySearch {
 
-	private static int findIndex(int myArray[], int enterEle) {
+	private static int findIndex(int myArray[], int enterElement) {
 		int arrayIndex = Arrays.binarySearch(myArray, enterElement);
 		return (arrayIndex < 0) ? -1 : arrayIndex;
 	}

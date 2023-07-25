@@ -13,7 +13,7 @@ class OneToTen {
 		System.out.println("Using While Loop");
 		int start = 1;
 		while (start <= 10) {
-			System.out.print("\n" + start);
+			System.out.println(start);
 			start++;
 		}
 	}
@@ -24,7 +24,7 @@ class OneToTen {
 		System.out.println("\nUsing Do While Loop");
 		int start = 1;
 		do {
-			System.out.print("\n" + start);
+			System.out.println(start);
 			start++;
 		} while (start <= 10);
 	}

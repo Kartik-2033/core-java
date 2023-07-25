@@ -24,14 +24,14 @@ public class RaceCarDetails {
 		raceCar.add("Nitro");
 
 		// Display race car
-		System.out.println("Parts added To Race Car: " + raceCar);
+		System.out.println("Parts added To Race Car : " + raceCar);
 
 		// Remove 'nitro' element
 		raceCar.remove("Nitro");
 		System.out.println("After remove nitro raceCar : " + raceCar);
 
 		// Check race car have 'engine' element
-		System.out.println("Check Race car have engine: " + raceCar.contains("Engine"));
+		System.out.println("Check Race car have engine : " + raceCar.contains("Engine"));
 
 		// Check array is empty ?
 		System.err.println("Race car is empty : " + raceCar.isEmpty());

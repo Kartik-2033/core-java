@@ -17,12 +17,12 @@ class Constructor {
 		int defVar1 = 5;
 		int defVar2 = 10;
 		// Sum Of Two Number And Print Them
-		System.out.println("Default Constuctor Sum Of Two Number" + " " + (defVar1 + defVar2));
+		System.out.println("Default Constuctor Sum Of Two Number " + (defVar1 + defVar2));
 	}
 
 	// Parameterized Constructor created
 	Constructor(int parVar1, int parVar2) { // Passing Two Variable In Argument
-		System.out.println("Paramerterized Constuctor Sum Of Two Number" + " " + (parVar1 + parVar2));
+		System.out.println("Paramerterized Constuctor Sum Of Two Number " + (parVar1 + parVar2));
 	}
 
 	// Creating Main Method

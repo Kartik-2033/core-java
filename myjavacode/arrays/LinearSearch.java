@@ -35,7 +35,10 @@ public class LinearSearch {
 
 		// Traverse in array
 		while (arrayElement < lengthArray) {
-			// Check arrayElement and enterElement are same or not
+			/*
+			 * If the arrayElement is enterElement are both same. Then return index of
+			 * element.
+			 */
 			if (myArray[arrayElement] == enterElement) {
 				return arrayElement;
 			} else {

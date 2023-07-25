@@ -17,7 +17,7 @@ class FindCurrentMonth {
 		Scanner scannerObject = new Scanner(System.in);
 
 		// Take Input from user and store in varibale
-		System.out.println("Enter the number of month");
+		System.out.println("Enter the number of month : ");
 
 		int monthNumber = scannerObject.nextInt();
 
