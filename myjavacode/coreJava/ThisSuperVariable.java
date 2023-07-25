@@ -5,7 +5,6 @@ package com.myjavacode.corejava;
  * 
  * @author Kartik
  */
-
 class SuperClass {
 
 	void printData() {
@@ -21,9 +20,9 @@ class ThisSuperVariable extends SuperClass {
 	}
 
 	void callMethods() {
-		// 'this' invoke current class "ThisSuperVariable" prinData() mehtod
+		// 'this' invokes current class "ThisSuperVariable" prinData() method
 		this.printData();
-		// 'super' invoke current class "SuperClass" prinData() mehtod
+		// 'super' invokes current class "SuperClass" prinData() mehtod
 		super.printData();
 	}
 

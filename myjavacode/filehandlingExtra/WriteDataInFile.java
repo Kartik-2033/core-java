@@ -8,7 +8,6 @@ import java.util.Scanner;
  * Use {@link #WriteDataInFile()} to Write in file.
  * 
  * @author Kartik
- *
  */
 public class WriteDataInFile {
 

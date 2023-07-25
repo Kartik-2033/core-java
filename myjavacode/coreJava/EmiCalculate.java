@@ -3,19 +3,18 @@ package com.myjavacode.corejava;
 import java.util.Scanner;
 
 /**
- * <h3>EMI Calculate In Java</h3> This Program Calculate The Monthly
- * Installement!
+ * <h3>EMI Calculate In Java</h3> The program calculates the monthly
+ * installment!
  * <p>
  * 
  * @author Kartik
  */
-
 public class EmiCalculate {
 
 	// Function to calculate EMI
 	static float emiCalculate(float loanAmount, float interestRate, float yearTime) {
-		interestRate = interestRate / (12 * 100); // One month interest
-		yearTime = yearTime * 12; // One month period
+		interestRate = interestRate / (12 * 100); // one month interest
+		yearTime = yearTime * 12; // one month period
 
 		// Applying Formula To Count emi
 		float emiCount = (loanAmount * interestRate * (float) Math.pow(1 + interestRate, yearTime))

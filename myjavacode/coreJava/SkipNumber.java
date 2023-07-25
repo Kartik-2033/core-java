@@ -7,7 +7,6 @@ package com.myjavacode.corejava;
  * 
  * @author Kartik
  */
-
 public class SkipNumber {
 
 	public static void main(String[] args) {

@@ -6,8 +6,9 @@ import java.util.Map.*;
 /**
  * <h3>Collection-Maps!</h3>
  * <p>
- * This program show Student's Tenth Result!
+ * This program shows Student's Tenth Result!
  * </p>
+ * 
  * @author Kartik
  */
 public class TenthMarksheets {

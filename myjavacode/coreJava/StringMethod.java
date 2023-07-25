@@ -7,17 +7,16 @@ import java.util.Scanner;
  * 
  * @author Kartik
  */
-
 public class StringMethod {
 
 	// Creating Main Method
 	public static void main(String[] args) {
 		Scanner stringScanner = new Scanner(System.in);
-		// Taking Input First Name From User Store In firstName
+		// Taking the first name of the user and storing it in firstName
 		System.out.println("Enter the First Name : ");
 		String firstName = stringScanner.next();
 
-		// Taking Input Last Name From User Store In lastName
+		// Taking the last name of the user and storing it in lastName
 		System.out.println("Enter the Last Name : ");
 		String lastName = stringScanner.next();
 
@@ -27,13 +26,13 @@ public class StringMethod {
 
 		System.out.println("Find Character At Index Of 2 in First Name : " + firstName.charAt(2));
 
-		// 'concat' = Append lastName at end Of firstName
+		// The 'concat' function appends the lastname at the end of the firstname
 		System.out.println("Append last name After first Name : " + firstName.concat(lastName));
 
-		// '.equals' = Compare First name And last name
+		// The '.equals' function compares the first and last name
 		System.out.println("Compare First name And last name : " + firstName.equals(lastName));
 
-		// 'indexOf' = Search a string for the first occurrence of "t":
+		// The 'indexOf' function= Search a string for the first occurrence of "t":
 		System.out.println("Return Index Value Of 't' : " + firstName.indexOf("t"));
 		stringScanner.close();
 	}

@@ -6,7 +6,6 @@ package com.myjavacode.corejava;
  * 
  * @author Kartik
  */
-
 class OneToTen {
 
 	// Printing data using while loop
@@ -14,17 +13,18 @@ class OneToTen {
 		System.out.println("Using While Loop");
 		int start = 1;
 		while (start <= 10) {
-			System.out.print(start);
+			System.out.print("\n" + start);
 			start++;
 		}
 	}
 
 	// Printing data using do while loop
 	static void doWhileLoop() {
-		System.out.println("Using Do While Loop");
+		System.out.println();
+		System.out.println("\nUsing Do While Loop");
 		int start = 1;
 		do {
-			System.out.print(start);
+			System.out.print("\n" + start);
 			start++;
 		} while (start <= 10);
 	}

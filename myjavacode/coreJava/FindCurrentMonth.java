@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * <h3>Find Current Month!</h3>
  * <p>
- * This Program find the current month name.
+ * Using this program, you can find the name of the month.
  * </p>
  * 
  * @author Kartik

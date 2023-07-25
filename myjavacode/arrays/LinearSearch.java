@@ -6,7 +6,7 @@ import java.util.Scanner;
 /**
  * <h3>Finding Index Of Arrays!</h3>
  * <p>
- * This Program Show How To Find Index Of Arrays Using Linear Serach!
+ * This Program Show How To Find Index Of Arrays Using Linear Search!
  * </p>
  * <h2>Created LinearSearch Class</h2>
  * <h4>Created findIndex method</h4>
@@ -17,6 +17,8 @@ import java.util.Scanner;
  * @param myArray      : Array
  * @param enterElement : Find Index Of Enter Element
  * @return -1 If Element Not Found.
+ * 
+ * @author Kartik
  */
 public class LinearSearch {
 

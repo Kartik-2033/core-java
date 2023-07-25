@@ -8,7 +8,6 @@ import java.util.Scanner;
  * Use {@link #FileInfo()} to get information about file.
  * 
  * @author Kartik
- *
  */
 public class FileInfo {
 

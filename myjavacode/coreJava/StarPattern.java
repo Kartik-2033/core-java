@@ -7,7 +7,6 @@ package com.myjavacode.corejava;
  * 
  * @author Kartik
  */
-
 class StarPattern {
 
 	public static void main(String[] args) {

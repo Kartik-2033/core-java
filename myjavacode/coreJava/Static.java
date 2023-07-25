@@ -1,7 +1,6 @@
 package com.myjavacode.corejava;
 
 /**
- *
  * Write a program to demonstrate static methods, variables, and blocks
  * 
  * @author Kartik

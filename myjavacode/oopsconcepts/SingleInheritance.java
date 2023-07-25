@@ -10,8 +10,10 @@ package com.myjavacode.oopsconcepts;
  * <h4>Created Method</h4>
  * </p>
  * <ul>
- * <li><b>ParentClass : Parent Base Method</b></li>
+ * <li><b>fatherMethod : Print Reltion</b></li>
  * </ul>
+ * 
+ * @author Kartik
  */
 class FatherClass {
 
@@ -27,7 +29,7 @@ class FatherClass {
  * <h4>Created Method</h4>
  * </p>
  * <ul>
- * <li><b>childBaseMethod : Child Base Method</b></li>
+ * <li><b>sonMethod : Print Reltion</b></li>
  * </ul>
  */
 class SonClass extends FatherClass {

@@ -3,15 +3,14 @@ package com.myjavacode.corejava;
 import java.util.Scanner;
 
 /**
- * <h3>Wrapper Class!</h3> Compare two variables of Wrapper class using Wrapper
- * classes.
+ * <h3>Wrapper Class!</h3> Using Wrapper classes, compare two variables.
  * <p>
  * 
  * @author Kartik
  */
 public class WrapperClass {
 
-	/** Creating Main Method */
+	// Creating Main Method 
 	public static void main(String[] args) {
 		Scanner scannerObject = new Scanner(System.in); // For Input From User
 

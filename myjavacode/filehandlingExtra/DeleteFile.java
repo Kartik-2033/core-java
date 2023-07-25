@@ -8,7 +8,6 @@ import java.util.Scanner;
  * Use {@link #DeleteFile()} to delete file.
  * 
  * @author Kartik
- *
  */
 public class DeleteFile {
 

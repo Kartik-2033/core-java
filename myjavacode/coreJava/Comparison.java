@@ -5,7 +5,7 @@ import java.math.BigDecimal; //Import Package
 /**
  * <h3>Check Age!</h3>
  * <p>
- * This Program Compare Wrapper Classes Like
+ * The following program compares wrapper classes likes
  * </p>
  * <ul>
  * <li>Integer</li>

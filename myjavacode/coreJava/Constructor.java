@@ -3,7 +3,7 @@ package com.myjavacode.corejava;
 /**
  * <b>
  * <p>
- * This is a program for Sum Of Two Number Using Constructor.
+ * A program for calculating the sum of two numbers using constructors.
  * </p>
  * </b>
  * 

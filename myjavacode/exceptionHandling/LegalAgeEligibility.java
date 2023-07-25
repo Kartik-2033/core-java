@@ -29,14 +29,14 @@ public class LegalAgeEligibility {
 		System.out.println("Enter Your age : ");
 
 		try {
-			int enterAge = scanner.nextInt();// Take input from user
+			int enterAge = scanner.nextInt(); // Take input from user
 			if (enterAge <= 21) { // Check the condition
-				throw new YoungAge("You are not eligible for Marriage");// If condition false throw a exception
+				throw new YoungAge("You are not eligible for Marriage"); // If condition false throw a exception
 			} else {
 				System.out.println("You are eligible for Marriage");
 			}
 		} catch (YoungAge underAge) {
-			System.out.println(underAge);// Catch the exception
+			System.out.println(underAge); // Catch the exception
 		} catch (Exception e) {
 			System.out.println("Invalid input");
 		} finally {

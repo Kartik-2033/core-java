@@ -13,6 +13,8 @@ package com.myjavacode.oopsconcepts;
  * <li><b>Employee : Same method name as owner class</b></li>
  * <li><b>StaffBoy : Same method name as owner class</b></li>
  * </ul>
+ * 
+ * @author Kartik
  */
 class Owner {
 

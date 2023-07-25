@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * <h3>Exception Handling!</h3>
  * <p>
- * This Program Show How To Handle Exception Using Try, Catch & Finally!
+ * This Program Shows How To Handle Exceptions Using Try, Catch & Finally!
  * </p>
  * <p>
  * Type Of Exception : RunTimeException > Unchecked > Arithmetic Exception!

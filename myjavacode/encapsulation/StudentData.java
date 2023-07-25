@@ -13,6 +13,8 @@ package com.myjavacode.encapsulation;
  * <li><b>setStudentRollNo method : Set Student Roll Number</b></li>
  * <li><b>setStudentName method : Set Student Name</b></li>
  * </ul>
+ * 
+ * @author Kartik
  */
 public class StudentData {
 

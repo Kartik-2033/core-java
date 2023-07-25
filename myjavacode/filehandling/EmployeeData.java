@@ -8,7 +8,6 @@ import java.util.Scanner;
  * Use {@link #createFile()} to create new file.
  * 
  * @author Kartik
- *
  */
 public class EmployeeData {
 

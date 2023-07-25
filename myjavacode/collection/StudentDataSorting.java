@@ -5,7 +5,7 @@ import java.util.*;
 /**
  * <h3>Comparable-Comparator Interface!</h3>
  * <p>
- * This Program show sort data using comparable & comparator!
+ * This Program is used for sorting data using comparable & comparator!
  * </p>
  * <h3>StudentData Class!</h3>
  * <p>

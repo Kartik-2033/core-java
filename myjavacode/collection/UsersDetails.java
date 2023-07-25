@@ -7,8 +7,8 @@ import java.util.Scanner;
 /**
  * <h3>Collection!</h3>
  * <p>
- * This Program show how to add string Values Like (Your First Name, Middle Name
- * & Last Name)!
+ * This Program shows how to add string Values Like (Your First Name, Middle
+ * Name& Last Name)!
  * </p>
  * 
  * @author Kartik
@@ -16,7 +16,7 @@ import java.util.Scanner;
 public class UsersDetails {
 
 	public static void main(String[] args) {
-		// 'userDetailsList' : Creating Empty list to store data
+		// userDetailsList : Creating Empty list to store data
 		ArrayList<String> userDetailsList = new ArrayList<String>();
 
 		Scanner scanner = new Scanner(System.in);

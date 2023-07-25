@@ -12,6 +12,8 @@ package com.myjavacode.oopsconcepts;
  * <li><b>SbiBank : Find SBI Interest Rate</b></li>
  * <li><b>AxisBank : Find AXIS Interest Rate</b></li>
  * </ul>
+ * 
+ * @author Kartik
  */
 abstract class WorldBank {
 
@@ -40,7 +42,7 @@ public class DataAbstraction {
 	public static void main(String[] args) {
 		WorldBank findRateSbi = new SbiBank(); // Creating Object To call SbiBank Class
 		findRateSbi.getInterestRate();
-		WorldBank findRateAxis = new AxisBank();// Creating Object To call AxisBank Class
+		WorldBank findRateAxis = new AxisBank(); // Creating Object To call AxisBank Class
 		findRateAxis.getInterestRate();
 	}
 

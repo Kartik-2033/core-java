@@ -31,8 +31,8 @@ public class RemoveDuplicate {
 		list.add("E");
 
 		System.out.println("List With duplicate elements : " + list);
-		Set<String> alphBet = new LinkedHashSet<String>(list);
-		System.out.println("List with unique elements : " + alphBet);
+		Set<String> uniqueListSet = new LinkedHashSet<String>(list);
+		System.out.println("List with unique elements : " + uniqueListSet);
 	}
 
 }

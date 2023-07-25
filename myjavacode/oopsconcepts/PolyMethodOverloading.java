@@ -13,6 +13,8 @@ package com.myjavacode.oopsconcepts;
  * <li><b>polyMethod : One With two parameter</b></li>
  * <li><b>polyMethod : Second With three parameter</b></li>
  * </ul>
+ * 
+ * @author Kartik
  */
 class PolyOuter {
 

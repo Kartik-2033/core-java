@@ -8,7 +8,6 @@ import java.util.Scanner;
  * Use {@link #ReadFromFile()} to Read data from file.
  * 
  * @author Kartik
- *
  */
 public class ReadFromFile {
 
