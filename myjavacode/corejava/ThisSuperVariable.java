@@ -22,7 +22,7 @@ class ThisSuperVariable extends SuperClass {
 	void callMethods() {
 		// 'this' invokes current class "ThisSuperVariable" prinData() method
 		this.printData();
-		// 'super' invokes current class "SuperClass" prinData() mehtod
+		// 'super' invokes parent class "SuperClass" prinData() mehtod
 		super.printData();
 	}
 

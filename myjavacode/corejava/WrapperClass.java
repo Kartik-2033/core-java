@@ -18,7 +18,7 @@ public class WrapperClass {
 		System.out.println("Enter the First Number => ");
 		int primitiveVar = scannerObject.nextInt(); // Store Value Store in primitives
 
-		// Creating primitives Variable and Store value in primitiveVar
+		// Creating primitives Variable and Store value in primitiveVar2
 		System.out.println("Enter the Second Number => ");
 		int primitiveVar2 = scannerObject.nextInt(); // Store Value Store in primitives
 
