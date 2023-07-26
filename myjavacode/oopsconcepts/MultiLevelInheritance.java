@@ -3,7 +3,7 @@ package com.myjavacode.oopsconcepts;
 /**
  * <h3>Inheritance!</h3>
  * <p>
- * This Program About Inheritance : Multi-level Inheritance
+ * This Program About Multi-level Inheritance
  * </p>
  * <p>
  * <h2>Created Grandfather class</h2>
@@ -61,10 +61,10 @@ public class MultiLevelInheritance {
 
 	// created main method
 	public static void main(String args[]) {
-		SonClass sonClass = new SonClass(); // Created base Object
-		sonClass.grandfatherMethod(); // CallingSecond Grand father Class with base Object
-		sonClass.fatherMethod(); // Calling Parent Child Class with base Object
-		sonClass.sonMethod(); // Calling Son Child Class with base Object
+		SonClass showReltion = new SonClass(); // Created base Object
+		showReltion.grandfatherMethod(); // CallingSecond Grand father Class with base Object
+		showReltion.fatherMethod(); // Calling Parent Child Class with base Object
+		showReltion.sonMethod(); // Calling Son Child Class with base Object
 	}
 
 }

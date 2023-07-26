@@ -1,9 +1,9 @@
 package com.myjavacode.oopsconcepts;
 
 /**
- * <h3>Polymorphism!</h3>
+ * <h3>Polymorphism-Method Overriding</h3>
  * <p>
- * This Program About Compile-Time Polymorphism : Method Overriding
+ * This program is about run-time polymorphism. 
  * </p>
  * <p>
  * <h2>Created Parent class : Owner</h2>

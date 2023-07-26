@@ -3,9 +3,10 @@ package com.myjavacode.collection;
 import java.util.HashSet;
 
 /**
- * <h3>Collection-Set!</h3>
+ * <h3>Collection-HashSet!</h3>
  * <p>
- * This Program show how to add Engine, Turbo, Tires, Nitro To Race Car!
+ * This program demonstrates how to add string values such as "Engine", "Turbo",
+ * "Tires", and "Nitro" to a HashSet.
  * </p>
  * 
  * @author Kartik
@@ -13,7 +14,7 @@ import java.util.HashSet;
 public class RaceCarDetails {
 
 	public static void main(String[] args) {
-		// Creating Empty raceCar list
+		// Creating empty 'raceCar' list
 		HashSet<String> raceCar = new HashSet<String>();
 
 		// Adding basic parts to race car
@@ -26,18 +27,18 @@ public class RaceCarDetails {
 		// Display race car
 		System.out.println("Parts added To Race Car : " + raceCar);
 
-		// Remove 'nitro' element
+		// Remove 'nitro' element form list
 		raceCar.remove("Nitro");
 		System.out.println("After remove nitro raceCar : " + raceCar);
 
-		// Check race car have 'engine' element
+		// Check list have 'engine' element ?
 		System.out.println("Check Race car have engine : " + raceCar.contains("Engine"));
 
-		// Check array is empty ?
+		// Check list is empty ?
 		System.err.println("Race car is empty : " + raceCar.isEmpty());
 
-		// Size of raceCar array
-		System.err.println("How many parts added :" + raceCar.size());
+		// Size of list
+		System.err.println("How many parts added : " + raceCar.size());
 	}
 
 }

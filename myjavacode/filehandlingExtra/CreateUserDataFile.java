@@ -5,17 +5,13 @@ import java.util.Scanner;
 
 /**
  * <p>
- * Use {@link #createFile()} to create new file.
+ * This program demonstrates how to create a file
  * 
  * @author Kartik
  */
 public class CreateUserDataFile {
 
 	public void CreateFile() {
-		/**
-		 * filePath : Use to where file is create. 
-		 * fileName : Use to what to name thefile.
-		 */
 		String filePath = "", fileName = "";
 
 		try {
@@ -25,15 +21,15 @@ public class CreateUserDataFile {
 			fileName = userInput.next();
 
 			System.out.println("Enter File Path : ");
-			System.out.println("For Example : Path = D:/(Folder name)/");
+			System.out.println("For Example : Path = D:/(Folder name)");
 			filePath = userInput.next();
 
 			// Creating an object of a File
-			File createFile = new File(filePath + "" + fileName + ".txt");
+			File createFile = new File(filePath + "/" + fileName + ".txt");
 
 			// Make Condition If file is create or not
 			if (createFile.createNewFile()) {
-				System.out.println(fileName + " File Is successfully Created.");
+				System.out.println(fileName + " file is successfully created.");
 			} else {
 				System.out.println("File already exist in directory.");
 			}

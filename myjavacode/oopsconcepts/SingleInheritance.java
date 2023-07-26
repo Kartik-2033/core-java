@@ -1,9 +1,9 @@
 package com.myjavacode.oopsconcepts;
 
 /**
- * <h3>Inheritance!</h3>
+ * <h3>Inheritance</h3>
  * <p>
- * This Program About Inheritance : Single Inheritance
+ * This Program About Single Inheritance Inheritance
  * </p>
  * <p>
  * <h2>Created Parent class</h2>

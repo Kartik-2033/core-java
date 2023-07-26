@@ -5,7 +5,8 @@ import java.util.Scanner;
 /**
  * <h3>Exception Handling!</h3>
  * <p>
- * This Program Show How To Handle Exception Using Try, Catch, Finally & Throw!
+ * This program demonstrates how to handle exceptions using try, catch, finally,
+ * and throw statements.
  * </p>
  * <p>
  * Type Of Exception : RunTimeException > Unchecked > UserDefined Exception!
@@ -29,9 +30,10 @@ public class LegalAgeEligibility {
 		System.out.println("Enter Your age : ");
 
 		try {
-			int enterAge = scanner.nextInt(); // Take input from user
-			if (enterAge <= 21) { // Check the condition
-				throw new YoungAge("You are not eligible for Marriage"); // If condition false throw a exception
+			int enterAge = scanner.nextInt();
+			if (enterAge <= 21) {
+				// If the condition is false, then an exception is thrown.
+				throw new YoungAge("You are not eligible for Marriage");
 			} else {
 				System.out.println("You are eligible for Marriage");
 			}

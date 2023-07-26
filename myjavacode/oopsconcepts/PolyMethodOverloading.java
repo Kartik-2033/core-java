@@ -1,9 +1,9 @@
 package com.myjavacode.oopsconcepts;
 
 /**
- * <h3>Polymorphism!</h3>
+ * <h3>Polymorphism-Method Overloading</h3>
  * <p>
- * This Program About Compile-Time Polymorphism : Method Overloading
+ * This program is about compile-time polymorphism.
  * </p>
  * <p>
  * <h2>Created PolyOuter class</h2>

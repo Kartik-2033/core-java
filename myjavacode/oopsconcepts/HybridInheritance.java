@@ -3,7 +3,7 @@ package com.myjavacode.oopsconcepts;
 /**
  * <h3>Inheritance!</h3>
  * <p>
- * This Program About Inheritance : Hybrid Inheritance
+ * This Program About Hybrid Inheritance
  * </p>
  * <p>
  * <h2>Created Grandfather class</h2>

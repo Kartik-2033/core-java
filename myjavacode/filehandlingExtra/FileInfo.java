@@ -4,8 +4,14 @@ import java.io.File;
 import java.util.Scanner;
 
 /**
- * <p>
- * Use {@link #FileInfo()} to get information about file.
+ *
+ * <h3>This program is designed to check the following conditions :</h3>
+ * <ul>
+ * <li>Whether a file exists or not</li>
+ * <li>Whether a file is writable or not</li>
+ * <li>Whether a file is readable or not</li>
+ * <li>The length of a file in bytes</li>
+ * </ul>
  * 
  * @author Kartik
  */
@@ -19,10 +25,8 @@ public class FileInfo {
 
 		// Checking file exist or not
 		if (infoFile.exists()) {
-			// Getting file name
 			System.out.println("The file name is : " + (infoFile.getName()));
-			// Getting path of file
-			System.out.println("The absolute path of the file is: " + infoFile.getAbsolutePath());
+			System.out.println("The absolute path of the file is : " + infoFile.getAbsolutePath());
 
 			// Checking whether the file is writable or not
 			if (infoFile.canWrite() == true) {
@@ -31,12 +35,13 @@ public class FileInfo {
 				System.out.println((infoFile.getName()) + " is not writable.");
 			}
 
-			// Checking whether the file is writable or not
+			// Checking whether the file is readable or not
 			if (infoFile.canRead() == true) {
 				System.out.println((infoFile.getName()) + " is readable.");
 			} else {
 				System.out.println((infoFile.getName()) + " is not readable.");
 			}
+
 			// Getting the length of the file in byte
 			System.out.println("The size of the file in bytes is: " + infoFile.length());
 		} else {

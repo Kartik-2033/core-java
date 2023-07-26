@@ -1,14 +1,13 @@
 package com.myjavacode.corejava;
 
 /**
- * Write a program to demonstrate the use of while loop and do while loop. (E.g
- * print 1 to 10 numbers).
+ * print numbers 1 to 10 using the While loop and do-while loop
  * 
  * @author Kartik
  */
 class OneToTen {
 
-	// Printing data using while loop
+	// Printing numbers using while loop
 	static void whileLoop() {
 		System.out.println("Using While Loop");
 		int start = 1;
@@ -18,7 +17,7 @@ class OneToTen {
 		}
 	}
 
-	// Printing data using do while loop
+	// Printing numbers using do while loop
 	static void doWhileLoop() {
 		System.out.println();
 		System.out.println("\nUsing Do While Loop");

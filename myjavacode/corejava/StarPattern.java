@@ -2,8 +2,7 @@ package com.myjavacode.corejava;
 
 /**
  *
- * Write a program to demonstrate the example of the ‘for’ loop and print the
- * below-mentioned pattern
+ * Print Star Pattern using for loop
  * 
  * @Note i for rows and j for columns row denotes the number of rows you want to
  *       print

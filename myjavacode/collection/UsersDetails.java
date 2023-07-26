@@ -5,10 +5,10 @@ import java.util.Iterator;
 import java.util.Scanner;
 
 /**
- * <h3>Collection!</h3>
+ * <h3>Collection-ArrayList!</h3>
  * <p>
  * This Program shows how to add string Values Like (Your First Name, Middle
- * Name& Last Name)!
+ * Name& Last Name) in ArrayList.
  * </p>
  * 
  * @author Kartik
@@ -16,7 +16,7 @@ import java.util.Scanner;
 public class UsersDetails {
 
 	public static void main(String[] args) {
-		// userDetailsList : Creating Empty list to store data
+		// 'userDetailsList' : Creating empty ArrayList to store data
 		ArrayList<String> userDetailsList = new ArrayList<String>();
 
 		Scanner scanner = new Scanner(System.in);
@@ -33,14 +33,12 @@ public class UsersDetails {
 		userDetailsList.add(userLastName);
 
 		System.out.println(userDetailsList);
-		// Iterator variable
 		Iterator<String> printUserDetails = userDetailsList.iterator();
 
-		// Printing data
 		while (printUserDetails.hasNext()) {
-			System.out.println("Your First Name : " + printUserDetails.next());
-			System.out.println("Your Middle Name : " + printUserDetails.next());
-			System.out.println("Your Last Name : " + printUserDetails.next());
+			System.out.println("First Name : " + printUserDetails.next());
+			System.out.println("Middle Name : " + printUserDetails.next());
+			System.out.println("Last Name : " + printUserDetails.next());
 		}
 		scanner.close();
 	}

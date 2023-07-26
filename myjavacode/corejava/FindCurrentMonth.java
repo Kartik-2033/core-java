@@ -13,12 +13,8 @@ import java.util.Scanner;
 class FindCurrentMonth {
 
 	public static void main(String[] args) {
-		// Created variable of month
 		Scanner scannerObject = new Scanner(System.in);
-
-		// Take Input from user and store in varibale
 		System.out.println("Enter the number of month : ");
-
 		int monthNumber = scannerObject.nextInt();
 
 		// Start switch case loop

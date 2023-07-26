@@ -6,7 +6,7 @@ import java.util.Scanner;
 /**
  * <h3>Finding Index Of Arrays!</h3>
  * <p>
- * This program show how to find index of array using Linear Search!
+ * This program show how to find index of arrays using Linear Search!
  * </p>
  * 
  * @param myArray
@@ -20,19 +20,17 @@ public class LinearSearch {
 		// Checking if array is null or not!
 		if (myArray == null) {
 			System.out.println("Array Is null.");
-		}
+		} else {
+			// Find length of array
+			int lengthArray = myArray.length;
+			int arrayElement = 0;
 
-		// Find length of array
-		int lengthArray = myArray.length;
-		// Starting Point of array
-		int arrayElement = 0;
-
-		// Traverse in array
-		while (arrayElement < lengthArray) {
-			if (myArray[arrayElement] == enterElement) {
-				return arrayElement;
-			} else {
-				arrayElement++;
+			while (arrayElement < lengthArray) {
+				if (myArray[arrayElement] == enterElement) {
+					return arrayElement;
+				} else {
+					arrayElement++;
+				}
 			}
 		}
 		return -1;

@@ -3,10 +3,7 @@ package com.myjavacode.oopsconcepts;
 /**
  * <h3>Inheritance!</h3>
  * <p>
- * This Program About Inheritance : Hierarchical Inheritance
- * </p>
- * <p>
- * <h2>Created SonClass class</h2>
+ * This Program About Hierarchical Inheritance
  * </p>
  * 
  * @author Kartik
@@ -19,15 +16,7 @@ class SonClass {
 
 }
 
-/**
- * <p>
- * <h2>Created Father class extend SonClass</h2>
- * <h4>Created Method</h4>
- * </p>
- * <ul>
- * <li><b>fatherMethod : Print data</b></li>
- * </ul>
- */
+
 class FatherClass extends SonClass {
 
 	void fatherMethod() {
@@ -36,15 +25,6 @@ class FatherClass extends SonClass {
 
 }
 
-/**
- * <p>
- * <h2>Created Mother Child class extend SonClass</h2>
- * <h4>Created Method</h4>
- * </p>
- * <ul>
- * <li><b>motherMethod : Print data</b></li>
- * </ul>
- */
 class MotherClass extends SonClass {
 
 	void motherMethod() {
@@ -57,14 +37,14 @@ public class HierarchicalInheritance {
 
 	// Created main method
 	public static void main(String args[]) {
-		FatherClass baseFatObj = new FatherClass(); // Created base Object For Father Class
-		MotherClass baseMotObj = new MotherClass(); // Created base Object For Mother Class
+		FatherClass fatherObject = new FatherClass(); // Created base Object For Father Class
+		MotherClass motherObject = new MotherClass(); // Created base Object For Mother Class
 
-		baseFatObj.fatherMethod(); // Calling Father Class
-		baseFatObj.sonMethod(); // Calling Son Class with base Object Father
+		fatherObject.fatherMethod(); // Calling Father Class
+		fatherObject.sonMethod(); // Calling Son Class with Object Father
 
-		baseMotObj.motherMethod(); // Calling Mother class
-		baseMotObj.sonMethod(); // Calling Son Class with base object Mother
+		motherObject.motherMethod(); // Calling Mother class
+		motherObject.sonMethod(); // Calling Son Class with object Mother
 	}
 
 }

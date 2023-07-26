@@ -4,13 +4,13 @@ package com.myjavacode.oopsconcepts;
  * <p>
  * <h3>Data Abstraction!</h3>
  * <p>
- * This Program About Find Interest Rate OF Two Bank!
+ * This program is designed to help you find the interest rates of two banks.
  * </p>
  * <h2>Created World bank class</h2>
  * </p>
  * <ul>
- * <li><b>SbiBank : Find SBI Interest Rate</b></li>
- * <li><b>AxisBank : Find AXIS Interest Rate</b></li>
+ * <li><b>SbiBank Class for Finding SBI Interest Rates.</b></li>
+ * <li><b>AxisBank Class for Finding AXIS Interest Rate</b></li>
  * </ul>
  * 
  * @author Kartik

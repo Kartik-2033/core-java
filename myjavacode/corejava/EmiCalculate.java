@@ -24,24 +24,21 @@ public class EmiCalculate {
 
 	// Creating Main Method
 	public static void main(String[] args) {
-		float loanAmount, interestRate, yearTime, emi;
+		float loanAmount, interestRate, yearTime, monthlyEmi;
 		Scanner scanner = new Scanner(System.in); // For Input From User
 
-		// Creating varible and Store value in loanAmount
 		System.out.println("Enter the Principal Or Loan Amount => ");
 		loanAmount = scanner.nextInt();
 
-		// Creating varible and Store value in interestRate
 		System.out.println("Enter the Interest Rate (Per Month) => ");
 		interestRate = scanner.nextInt();
 
-		// Creating varible and Store value in interestRate
 		System.out.println("Enter yearTime in year => ");
 		yearTime = scanner.nextInt();
 
-		emi = emiCalculate(loanAmount, interestRate, yearTime);
+		monthlyEmi = emiCalculate(loanAmount, interestRate, yearTime);
 
-		System.out.println("Monthly EMI is = " + emi); // Count Monthly EMI
+		System.out.println("Monthly EMI is = " + monthlyEmi); // Count Monthly EMI
 		scanner.close();
 	}
 

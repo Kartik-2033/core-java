@@ -5,7 +5,7 @@ import java.util.*;
 /**
  * <h3>Comparable-Comparator Interface!</h3>
  * <p>
- * This Program is used for sorting data using comparable & comparator!
+ * This Program shows how to sort data using comparable & comparator!
  * </p>
  * <h3>StudentData Class!</h3>
  * <p>
@@ -62,13 +62,13 @@ public class StudentDataSorting {
 			System.out.println("Student Name : " + (student.getName()) + " Age : " + (student.studentAge));
 
 		// Sorting data using Comparable
-		System.out.println("\n: Data Sorting According Their Age(ASC) :");
+		System.out.println("\n: Data sorting according to students Age(ASC) :");
 		Collections.sort(studentList);
 		for (StudentData student : studentList)
 			System.out.println("Student Name : " + (student.getName()) + " Age : " + (student.studentAge));
 
 		// Sorting data using Comparator
-		System.out.println("\n: Data Sorting According Their Name(ASC) :");
+		System.out.println("\n: Data sorting according to students Name(ASC) :");
 		// Created Comparator object
 		NameComparator comObj = new NameComparator();
 		Collections.sort(studentList, comObj);

@@ -6,9 +6,9 @@ import java.util.List;
 import java.util.Set;
 
 /**
- * <h3>Collection!</h3>
+ * <h3>Collection-List!</h3>
  * <p>
- * This Program show how to Remove duplicate value from list!
+ * This program shows how to remove duplicate values from the list!
  * </p>
  * 
  * @author Kartik
@@ -16,10 +16,10 @@ import java.util.Set;
 public class RemoveDuplicate {
 
 	public static void main(String[] args) {
-		// 'list' : Creating Empty list to store data
+		// 'list' : Creating empty list to store data
 		List<String> list = new ArrayList<String>();
 
-		// Adding value
+		// Adding value in list.
 		list.add("A");
 		list.add("B");
 		list.add("C");

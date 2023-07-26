@@ -1,7 +1,7 @@
 package com.myjavacode.corejava;
 
 /**
- * Write a program to illustrate super & This keyword
+ * Program to use 'this' and 'super' Keywords.
  * 
  * @author Kartik
  */

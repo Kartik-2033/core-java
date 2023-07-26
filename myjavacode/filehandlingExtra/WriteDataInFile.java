@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 /**
  * <p>
- * Use {@link #WriteDataInFile()} to Write in file.
+ * This program demonstrates how to Write data from a file.
  * 
  * @author Kartik
  */
@@ -26,7 +26,7 @@ public class WriteDataInFile {
 				writerObject.write("Hello My Name Is Kartik.");
 				writerObject.close();
 				userInput.close();
-				System.out.println("Content Added successfully in File.");
+				System.out.println("The content has been successfully added to the file..");
 			} else {
 				System.out.println("File Does not exist in location.");
 			}

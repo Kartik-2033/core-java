@@ -3,8 +3,7 @@ package com.myjavacode.encapsulation;
 /**
  * <h3>Encapsulation!</h3>
  * <p>
- * This Program About Encapsulation : This Program About set data from Main
- * file!
+ * This Program takes data from the 'MainData.java' file!
  * </p>
  * <p>
  * <h2>Created Student Data class</h2>

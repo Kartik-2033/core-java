@@ -1,12 +1,13 @@
 package com.myjavacode.collection;
 
 import java.util.HashMap;
-import java.util.Map.*;
+import java.util.Map.Entry;
 
 /**
- * <h3>Collection-Maps!</h3>
+ * <h3>Collection-HashMap!</h3>
  * <p>
- * This program shows Student's Tenth Result!
+ * This program demonstrates the use of HashMap with a Student mark sheet
+ * example.
  * </p>
  * 
  * @author Kartik
@@ -16,8 +17,6 @@ public class TenthMarksheets {
 	public static void main(String[] args) {
 		// Create a HashMap object called studentSheet
 		HashMap<String, Integer> studentSheet = new HashMap<>();
-
-		// Add keys and values
 		studentSheet.put("Id", 10);
 		studentSheet.put("enrollNo", 1905);
 		studentSheet.put("totalMarks", 700);
