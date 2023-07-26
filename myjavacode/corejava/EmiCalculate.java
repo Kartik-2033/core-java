@@ -31,7 +31,7 @@ public class EmiCalculate {
 		loanAmount = scanner.nextInt();
 
 		System.out.println("Enter the Interest Rate (Per Month) => ");
-		interestRate = scanner.nextInt();
+		interestRate = scanner.nextFloat();
 
 		System.out.println("Enter yearTime in year => ");
 		yearTime = scanner.nextInt();
