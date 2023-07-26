@@ -25,17 +25,17 @@ public class RaceCarDetails {
 		raceCar.add("Nitro");
 
 		// Display race car
-		System.out.println("Parts added To Race Car : " + raceCar);
+		System.out.println("Parts added To raceCar : " + raceCar);
 
 		// Remove 'nitro' element form list
 		raceCar.remove("Nitro");
-		System.out.println("After remove nitro raceCar : " + raceCar);
+		System.out.println("After remove nitro from raceCar : " + raceCar);
 
 		// Check list have 'engine' element ?
-		System.out.println("Check Race car have engine : " + raceCar.contains("Engine"));
+		System.out.println("Check raceCar have engine : " + raceCar.contains("Engine"));
 
 		// Check list is empty ?
-		System.err.println("Race car is empty : " + raceCar.isEmpty());
+		System.err.println("raceCar is empty : " + raceCar.isEmpty());
 
 		// Size of list
 		System.err.println("How many parts added : " + raceCar.size());
