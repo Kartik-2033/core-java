@@ -16,7 +16,6 @@ class SonClass {
 
 }
 
-
 class FatherClass extends SonClass {
 
 	void fatherMethod() {

@@ -12,7 +12,6 @@ public class MainData {
 
 	public static void main(String[] args) {
 		StudentData student = new StudentData();
-
 		student.setStudentRollNo(27);
 		student.setStudentName("Kartik");
 		student.displayData();
