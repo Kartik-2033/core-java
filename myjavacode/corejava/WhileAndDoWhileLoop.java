@@ -1,7 +1,7 @@
 package com.myjavacode.corejava;
 
 /**
- * Print numbers 1 to 10 using the While loop and do-while loop
+ * Print numbers 1 to 10 using the while loop and do-while loop
  * 
  * @author Kartik
  */
@@ -20,7 +20,7 @@ class WhileAndDoWhileLoop {
 	// Printing numbers using do while loop
 	static void doWhileLoop() {
 		System.out.println();
-		System.out.println("\nUsing Do-While Loop");
+		System.out.println("\nUsing do-while loop");
 		int start = 1;
 		do {
 			System.out.println(start);

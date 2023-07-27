@@ -26,13 +26,13 @@ public class TryCatchFinally {
 
 		try {
 			varThird = varOne / varTwo;
-			System.out.println("::Try Block::");
+			System.out.println("::Try block::");
 			System.out.println("The division is : " + varThird); // If varTwo is equal to zero, then an error is thrown.
 		} catch (ArithmeticException zeroDivisonException) {
-			System.out.println("::Catch Block::");
+			System.out.println("::Catch block::");
 			System.out.println("Number can not divided by zero"); // Catch the exception
 		} finally {
-			System.out.println("::Finally Block::");
+			System.out.println("::Finally block::");
 			System.out.println("::This block execute if error occurs or not::");
 			scanner.close();
 		}

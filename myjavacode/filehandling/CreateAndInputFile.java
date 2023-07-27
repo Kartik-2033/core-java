@@ -13,7 +13,8 @@ import java.util.Scanner;
 public class CreateAndInputFile {
 
 	public void createFile() {
-		String filePath = "", fileName = "", userName = "", userAge = "", userEmail = "";
+		String filePath = "", fileName = "", userName = "", userEmail = "";
+		int userAge;
 
 		try {
 			Scanner userInput = new Scanner(System.in);
@@ -28,7 +29,7 @@ public class CreateAndInputFile {
 			userName = userInput.next();
 
 			System.out.println("Enter your age : ");
-			userAge = userInput.next();
+			userAge = userInput.nextInt();
 
 			System.out.println("Enter your email-id : ");
 			userEmail = userInput.next();
@@ -62,7 +63,7 @@ public class CreateAndInputFile {
 	}
 
 	public static void main(String[] args) {
-		EmployeeData userRegister = new EmployeeData();
+		CreateAndInputFile userRegister = new CreateAndInputFile();
 		userRegister.createFile();
 	}
 

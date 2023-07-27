@@ -6,7 +6,7 @@ import java.util.Scanner;
 /**
  * <h3>Finding index of array element.</h3>
  * <p>
- * This program shows how to find an index of an array element using Binary Search!
+ * This program shows how to find an index of an array element using Binary search
  * </p>
  * <p>
  * <b>Note</b>: Binary search only works if an array element is sorted

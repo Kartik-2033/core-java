@@ -6,7 +6,7 @@ import java.util.Scanner;
 /**
  * <h3>Finding index of array element.</h3>
  * <p>
- * This program show how to find index of array element using Linear Search!
+ * This program show how to find index of array element using Linear search
  * </p>
  * 
  * @param myArray

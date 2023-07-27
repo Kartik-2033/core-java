@@ -7,8 +7,8 @@ import java.util.Scanner;
 /**
  * <h3>Collection-ArrayList!</h3>
  * <p>
- * This Program shows how to add string Values Like (Your First Name, Middle
- * Name& Last Name) in ArrayList.
+ * This Program shows how to add string Values like (Your first name, middle
+ * name & last name) in ArrayList.
  * </p>
  * 
  * @author Kartik

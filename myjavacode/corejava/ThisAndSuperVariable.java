@@ -1,14 +1,14 @@
 package com.myjavacode.corejava;
 
 /**
- * Program to use 'this' and 'super' Keywords.
+ * Program to use 'this' and 'super' keywords.
  * 
  * @author Kartik
  */
 class SuperClass {
 
 	void printData() {
-		System.out.println("Super Class Called.");
+		System.out.println("Super class called.");
 	}
 
 }
@@ -16,7 +16,7 @@ class SuperClass {
 class ThisAndSuperVariable extends SuperClass {
 
 	void printData() {
-		System.out.println("ThisSuperVariable Class Called.");
+		System.out.println("ThisSuperVariable class called.");
 	}
 
 	void callMethods() {
