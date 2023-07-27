@@ -57,23 +57,23 @@ public class StudentDataSorting {
 		studentList.add(new StudentData("Parru", 18));
 		studentList.add(new StudentData("Sonaa", 20));
 
-		System.out.println(": Data Without Sorted :");
+		System.out.println(": Data without sorted :");
 		for (StudentData student : studentList)
-			System.out.println("Student Name : " + (student.getName()) + " Age : " + (student.studentAge));
+			System.out.println("Student name : " + (student.getName()) + " age : " + (student.studentAge));
 
 		// Sorting data using Comparable
-		System.out.println("\n: Data sorting according to students Age(ASC) :");
+		System.out.println("\n: Data sorting according to students age(ASC) :");
 		Collections.sort(studentList);
 		for (StudentData student : studentList)
-			System.out.println("Student Name : " + (student.getName()) + " Age : " + (student.studentAge));
+			System.out.println("Student name : " + (student.getName()) + " age : " + (student.studentAge));
 
 		// Sorting data using Comparator
-		System.out.println("\n: Data sorting according to students Name(ASC) :");
+		System.out.println("\n: Data sorting according to students name(ASC) :");
 		// Created Comparator object
 		NameComparator comObj = new NameComparator();
 		Collections.sort(studentList, comObj);
 		for (StudentData student : studentList)
-			System.out.println("Student Name : " + (student.getName()) + " Age : " + (student.studentAge));
+			System.out.println("Student name : " + (student.getName()) + " age : " + (student.studentAge));
 	}
 
 }

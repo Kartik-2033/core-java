@@ -17,7 +17,7 @@ public class ReadFile {
 		System.out.println("Enter absolute path of the file : ");
 		String filePath = userInput.next();
 
-		// Creating File Object
+		// Creating file object
 		File infoFile = new File(filePath);
 
 		try {
@@ -28,10 +28,10 @@ public class ReadFile {
 				System.out.println(fileData);
 			}
 			fileReader.close();
-		} catch (FileNotFoundException exeObj) {
-			System.out.println("File Not Found.");
-			exeObj.printStackTrace();
-		} catch (Exception exeObj) {
+		} catch (FileNotFoundException exception) {
+			System.out.println("File is not found.");
+			exception.printStackTrace();
+		} catch (Exception exception) {
 			System.out.println("An unexpected error is occurred. Sorry For inconvenience.");
 		}
 		userInput.close();

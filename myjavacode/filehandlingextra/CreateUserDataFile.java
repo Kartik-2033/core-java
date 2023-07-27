@@ -1,4 +1,4 @@
-package com.myjavacode.filehandlingExtra;
+package com.myjavacode.filehandlingextra;
 
 import java.io.*;
 import java.util.Scanner;
@@ -17,27 +17,27 @@ public class CreateUserDataFile {
 		try {
 			Scanner userInput = new Scanner(System.in);
 
-			System.out.println("Enter File Name : ");
+			System.out.println("Enter file name : ");
 			fileName = userInput.next();
 
-			System.out.println("Enter File Path : ");
-			System.out.println("For Example : Path = D:/(Folder name)");
+			System.out.println("Enter file path : ");
+			System.out.println("For example : Path = D:/(Folder name)");
 			filePath = userInput.next();
 
-			// Creating an object of a File
+			// Creating an object of a file
 			File createFile = new File(filePath + "/" + fileName + ".txt");
 
-			// Make Condition If file is create or not
+			// Make condition if file is create or not
 			if (createFile.createNewFile()) {
 				System.out.println(fileName + " file is successfully created.");
 			} else {
 				System.out.println("File already exist in directory.");
 			}
 			userInput.close();
-		} catch (IOException exeObj) {
+		} catch (IOException exception) {
 			System.out.println("An unexpected error is occurred");
-			exeObj.printStackTrace();
-		} catch (Exception exeObj) {
+			exception.printStackTrace();
+		} catch (Exception exception) {
 			System.out.println("An unexpected error is occurred. Sorry For inconvenience.");
 		}
 	}

@@ -1,4 +1,4 @@
-package com.myjavacode.filehandlingExtra;
+package com.myjavacode.filehandlingextra;
 
 import java.io.*;
 import java.util.Scanner;
@@ -15,7 +15,7 @@ public class ReadFromFile {
 		Scanner userInput = new Scanner(System.in);
 		System.out.println("Enter absolute path of the file :");
 		String filePath = userInput.next();
-		// Creating File Object
+		// Creating file object
 		File infoFile = new File(filePath);
 
 		try {
@@ -26,10 +26,10 @@ public class ReadFromFile {
 				System.out.println(fileData);
 			}
 			fileReader.close();
-		} catch (FileNotFoundException e) {
+		} catch (FileNotFoundException exception) {
 			System.out.println("File Not Found.");
-			e.printStackTrace();
-		} catch (Exception exeObj) {
+			exception.printStackTrace();
+		} catch (Exception exception) {
 			System.out.println("An unexpected error is occurred. Sorry For inconvenience.");
 		}
 		userInput.close();

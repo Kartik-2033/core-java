@@ -20,23 +20,28 @@ public class UsersDetails {
 		ArrayList<String> userDetailsList = new ArrayList<String>();
 
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Enter Your First Name, Middle Name & Last Name : ");
+		String userFirstName, userMiddleName, userLastName;
 
-		// Store data in variables
-		String userFirstName = scanner.nextLine();
-		String userMiddleName = scanner.nextLine();
-		String userLastName = scanner.nextLine();
+		System.out.println("Enter your first name : ");
+		userFirstName = scanner.next();
 
-		// Add data in empty list
+		System.out.println("Enter your middle name : ");
+		userMiddleName = scanner.next();
+
+		System.out.println("Enter your last name : ");
+		userLastName = scanner.next();
+
+		// Add all datas in 'userDetailsList'
 		userDetailsList.add(userFirstName);
 		userDetailsList.add(userMiddleName);
 		userDetailsList.add(userLastName);
 
-		System.out.println(userDetailsList);
+		System.out.println("Data added in list : " + userDetailsList);
+		// System.out.println(userDetailsList);
 		Iterator<String> printUserDetails = userDetailsList.iterator();
 
 		while (printUserDetails.hasNext()) {
-			System.out.println("First Name : " + printUserDetails.next());
+			System.out.println("First name : " + printUserDetails.next());
 			System.out.println("Middle Name : " + printUserDetails.next());
 			System.out.println("Last Name : " + printUserDetails.next());
 		}

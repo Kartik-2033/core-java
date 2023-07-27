@@ -10,17 +10,17 @@ import java.util.Scanner;
  * 
  * @author Kartik
  */
-class CheckAge {
+class IfElseCondition {
 
 	public static void main(String[] args) {
 		Scanner scannerObject = new Scanner(System.in);
-		// Take Input from the user and store it in yourAge variable
-		System.out.println("Enter Your Age :");
+		// Take input from the user and store it in yourAge variable
+		System.out.println("Enter your age : ");
 		int yourAge = scannerObject.nextInt();
 		if (yourAge > 18) {
-			System.out.print("Age is Above than 18");
+			System.out.print("Age is above than 18");
 		} else {
-			System.out.print("Age is Below than 18");
+			System.out.print("Age is below than 18");
 		}
 		scannerObject.close();
 	}

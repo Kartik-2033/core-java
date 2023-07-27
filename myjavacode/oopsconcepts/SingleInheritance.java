@@ -3,35 +3,22 @@ package com.myjavacode.oopsconcepts;
 /**
  * <h3>Inheritance</h3>
  * <p>
- * This Program About Single Inheritance Inheritance
+ * This program about single inheritance
  * </p>
  * <p>
- * <h2>Created Parent class</h2>
- * <h4>Created Method</h4>
- * </p>
- * <ul>
- * <li><b>fatherMethod : Print Reltion</b></li>
- * </ul>
+ * <h2>Created Parent class : Father class</h2>
+ * <h2>Created child class : Son class extends father class</h2>
  * 
  * @author Kartik
  */
 class FatherClass {
 
 	void fatherMethod() {
-		System.out.println("I am His father!");
+		System.out.println("I am his father!");
 	}
 
 }
 
-/**
- * <p>
- * <h2>Created Child class</h2>
- * <h4>Created Method</h4>
- * </p>
- * <ul>
- * <li><b>sonMethod : Print Reltion</b></li>
- * </ul>
- */
 class SonClass extends FatherClass {
 
 	void sonMethod() {
@@ -42,11 +29,10 @@ class SonClass extends FatherClass {
 
 public class SingleInheritance {
 
-	// created main method
 	public static void main(String args[]) {
-		SonClass sonClass = new SonClass(); // Created Object
-		sonClass.fatherMethod(); // Calling Parent Class 
-		sonClass.sonMethod(); // Calling Child Class 
+		SonClass sonClass = new SonClass();
+		sonClass.fatherMethod();
+		sonClass.sonMethod();
 	}
 
 }

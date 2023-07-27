@@ -24,10 +24,10 @@ public class TenthMarksheets {
 		studentSheet.put("firstClass", 0);
 
 		// Display Student data
-		System.out.println("Student Enrollment Number : " + studentSheet.get("enrollNo"));
-		System.out.println("Student Obtain Marks : " + studentSheet.get("obtainMarks"));
-		System.out.println("Student Pass With First Class : " + studentSheet.containsValue(0));
-		System.out.println("Check Data is empty : " + studentSheet.isEmpty());
+		System.out.println("Student enrollment number : " + studentSheet.get("enrollNo"));
+		System.out.println("Student obtain marks : " + studentSheet.get("obtainMarks"));
+		System.out.println("Student pass with first class : " + studentSheet.containsValue(0));
+		System.out.println("Check student marksheet is empty : " + studentSheet.isEmpty());
 
 		// Finding key of provided value
 		for (Entry<String, Integer> startPoint : studentSheet.entrySet()) {

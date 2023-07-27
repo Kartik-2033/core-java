@@ -1,4 +1,4 @@
-package com.myjavacode.filehandlingExtra;
+package com.myjavacode.filehandlingextra;
 
 import java.io.File;
 import java.util.Scanner;

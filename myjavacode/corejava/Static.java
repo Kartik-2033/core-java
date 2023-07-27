@@ -13,20 +13,20 @@ public class Static {
 
 	// Created Static Method
 	static void staticMethod(int staticVar3) {
-		System.out.println("Static Method Initialise.");
-		System.out.println("First Variable = " + staticVar1);
-		System.out.println("Second Variable = " + staticVar2);
-		System.out.println("Third Variable = " + staticVar3);
+		System.out.println("Static method initialise.");
+		System.out.println("First variable = " + staticVar1);
+		System.out.println("Second variable = " + staticVar2);
+		System.out.println("Third variable = " + staticVar3);
 	}
 
 	// Created Static Block
 	static {
-		System.out.println("Static Block Initialise.");
+		System.out.println("Static block initialise.");
 		staticVar2 = staticVar1 + 5;
 	}
 
 	public static void main(String args[]) {
-		System.out.println("Main Method Initialise.");
+		System.out.println("Main method initialise.");
 		staticMethod(8);
 	}
 

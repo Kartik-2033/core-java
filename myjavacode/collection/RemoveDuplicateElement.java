@@ -13,13 +13,13 @@ import java.util.Set;
  * 
  * @author Kartik
  */
-public class RemoveDuplicate {
+public class RemoveDuplicateElement {
 
 	public static void main(String[] args) {
 		// 'list' : Creating empty list to store data
 		List<String> list = new ArrayList<String>();
 
-		// Adding value in list.
+		// Adding values in list.
 		list.add("A");
 		list.add("B");
 		list.add("C");
@@ -30,7 +30,7 @@ public class RemoveDuplicate {
 		list.add("E");
 		list.add("E");
 
-		System.out.println("List With duplicate elements : " + list);
+		System.out.println("List with duplicate elements : " + list);
 		Set<String> uniqueListSet = new LinkedHashSet<String>(list);
 		System.out.println("List with unique elements : " + uniqueListSet);
 	}

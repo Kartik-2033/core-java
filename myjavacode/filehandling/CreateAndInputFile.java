@@ -10,36 +10,36 @@ import java.util.Scanner;
  * 
  * @author Kartik
  */
-public class EmployeeData {
+public class CreateAndInputFile {
 
 	public void createFile() {
 		String filePath = "", fileName = "", userName = "", userAge = "", userEmail = "";
 
 		try {
 			Scanner userInput = new Scanner(System.in);
-			System.out.println("Enter File Name : ");
+			System.out.println("Enter file name : ");
 			fileName = userInput.next();
 
-			System.out.println("For Example : Path = D:/(Folder name)");
-			System.out.println("Enter File Path : ");
+			System.out.println("For example : Path = D:/(Folder name)");
+			System.out.println("Enter file path : ");
 			filePath = userInput.next();
 
-			System.out.println("Enter Your Name : ");
+			System.out.println("Enter your name : ");
 			userName = userInput.next();
 
-			System.out.println("Enter Your Age : ");
+			System.out.println("Enter your age : ");
 			userAge = userInput.next();
 
-			System.out.println("Enter Your Email ID : ");
+			System.out.println("Enter your email-id : ");
 			userEmail = userInput.next();
 			// Creating an object of a File
 			File createFile = new File(filePath + "/" + fileName + ".txt");
 
 			// Check Condition If file is create or not
 			if (createFile.createNewFile()) {
-				System.out.println(fileName + " File Is successfully Created.");
+				System.out.println(fileName + " file is successfully created.");
 			} else {
-				System.out.println("File already exist in directory.");
+				System.out.println("File is already exist in directory.");
 			}
 
 			// Checking file exist or not
@@ -50,13 +50,13 @@ public class EmployeeData {
 				writerObject.close();
 				System.out.println("The content has been successfully added to the file.");
 			} else {
-				System.out.println("File Does not exist in location.");
+				System.out.println("File does not exist in location.");
 			}
 			userInput.close();
-		} catch (IOException exeObj) {
+		} catch (IOException exception) {
 			System.out.println("An unexpected error is occurred");
-			exeObj.printStackTrace();
-		} catch (Exception exeObj) {
+			exception.printStackTrace();
+		} catch (Exception exception) {
 			System.out.println("An unexpected error is occurred. Sorry For inconvenience.");
 		}
 	}

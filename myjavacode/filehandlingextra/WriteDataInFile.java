@@ -1,4 +1,4 @@
-package com.myjavacode.filehandlingExtra;
+package com.myjavacode.filehandlingextra;
 
 import java.io.*;
 import java.util.Scanner;
@@ -23,16 +23,16 @@ public class WriteDataInFile {
 			if (infoFile.exists()) {
 				// Creating FileWriter object to write in file
 				FileWriter writerObject = new FileWriter(filePath);
-				writerObject.write("Hello My Name Is Kartik.");
+				writerObject.write("Hello my name is kartik.");
 				writerObject.close();
 				userInput.close();
 				System.out.println("The content has been successfully added to the file..");
 			} else {
 				System.out.println("File Does not exist in location.");
 			}
-		} catch (Exception exeObj) {
+		} catch (Exception exception) {
 			System.out.println("An unexpected error is occurred. Sorry For inconvenience.");
-			exeObj.printStackTrace();
+			exception.printStackTrace();
 		}
 	}
 

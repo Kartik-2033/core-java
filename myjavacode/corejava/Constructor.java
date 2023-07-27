@@ -4,7 +4,7 @@ package com.myjavacode.corejava;
  * <b>
  * <p>
  * This program shows how to calculate the sum of two numbers using a Default
- * constructor And Parameterized Constructor.
+ * constructor And Parameterized constructor.
  * </p>
  * </b>
  * 
@@ -12,23 +12,21 @@ package com.myjavacode.corejava;
  */
 class Constructor {
 
-	// Default Constructor created
+	// Default constructor created
 	Constructor() {
-		// Creating two defVar1 & defVar2 variables
-		int defVar1 = 5;
-		int defVar2 = 10;
+		int number1 = 5;
+		int number2 = 10;
 		// Print the sum of two variables
-		System.out.println("Default Constuctor is called");
-		System.out.println("Sum Of Two Number " + (defVar1 + defVar2));
+		System.out.println("Default constuctor is called");
+		System.out.println("Sum of two number " + (number1 + number2));
 	}
 
-	// Parameterized Constructor created
-	Constructor(int parVar1, int parVar2) { // Passing Two Variable In Argument
-		System.out.println("Paramerterized Constuctor is called");
-		System.out.println("Sum Of Two Number " + (parVar1 + parVar2));
+	// Parameterized constructor created
+	Constructor(int number1, int number2) {
+		System.out.println("Paramerterized constuctor is called");
+		System.out.println("Sum Of Two Number " + (number1 + number2));
 	}
 
-	// Creating Main Method
 	public static void main(String[] args) {
 		new Constructor();
 		new Constructor(10, 15);

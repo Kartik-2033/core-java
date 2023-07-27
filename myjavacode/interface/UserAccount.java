@@ -6,9 +6,9 @@ package com.myjavacode.interface;
  * provide a real-life example to understand the interface.
  * </p>
  * <p>
- * This Program Show How User Can Shop Anything from his credit card!
+ * This program show how user can buy anything from his credit card!
  * </p>
- * <h3>VaseShop Interface!</h3>
+ * <h3>VaseShop interface!</h3>
  * <p>
  * This shop only accepts payment in dollars currency.
  * </p>
@@ -17,24 +17,24 @@ package com.myjavacode.interface;
  */
 interface VaseShop {
 
-	void ShopAcceptDollar();
+	void shopAcceptDollar();
 
 }
 
 /**
- * <h3>VaseShop Interface!</h3>
+ * <h3>VaseShop interface!</h3>
  * <p>
  * This shop only accepts payment in rupees currency.
  * </p>
  */
 interface FlowerShop {
 
-	void ShopAcceptRupee();
+	void shopAcceptRupee();
 
 }
 
 /**
- * <h3>UserCreditCard Class!</h3>
+ * <h3>UserCreditCard class!</h3>
  * <p>
  * With this class, users can buy anything using different currencies.
  * </p>
@@ -42,13 +42,13 @@ interface FlowerShop {
 class UserCreditCard implements VaseShop, FlowerShop {
 
 	@Override
-	public void ShopAcceptRupee() {
-		System.out.println("Purchase Flower : Payment In Rupees.");
+	public void shopAcceptRupee() {
+		System.out.println("Purchase flower : Payment in rupees.");
 	}
 
 	@Override
-	public void ShopAcceptDollar() {
-		System.out.println("Purchase Vase : Payment In Dollars.");
+	public void shopAcceptDollar() {
+		System.out.println("Purchase vase : Payment in dollars.");
 	}
 
 }
@@ -57,8 +57,8 @@ public class UserAccount {
 
 	public static void main(String[] args) {
 		UserCreditCard userPayment = new UserCreditCard();
-		userPayment.ShopAcceptDollar();
-		userPayment.ShopAcceptRupee();
+		userPayment.shopAcceptDollar();
+		userPayment.shopAcceptRupee();
 	}
 
 }

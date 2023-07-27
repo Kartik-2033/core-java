@@ -13,16 +13,16 @@ class SuperClass {
 
 }
 
-class ThisSuperVariable extends SuperClass {
+class ThisAndSuperVariable extends SuperClass {
 
 	void printData() {
 		System.out.println("ThisSuperVariable Class Called.");
 	}
 
 	void callMethods() {
-		// 'this' invokes current class "ThisSuperVariable" prinData() method
+		// 'this' invokes current class "ThisSuperVariable".
 		this.printData();
-		// 'super' invokes parent class "SuperClass" prinData() mehtod
+		// 'super' invokes parent class "SuperClass".
 		super.printData();
 	}
 

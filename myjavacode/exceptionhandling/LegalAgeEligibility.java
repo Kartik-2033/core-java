@@ -9,15 +9,15 @@ import java.util.Scanner;
  * and throw statements.
  * </p>
  * <p>
- * Type Of Exception : RunTimeException > Unchecked > UserDefined Exception!
+ * Type of Exception : RunTimeException > Unchecked > UserDefined Exception!
  * </p>
  * 
  * @author Kartik
  */
 @SuppressWarnings("serial")
-class YoungAge extends RuntimeException {
+class UnderAgeException extends RuntimeException {
 
-	YoungAge(String responseMessage) {
+	UnderAgeException(String responseMessage) {
 		super(responseMessage);
 	}
 
@@ -27,17 +27,17 @@ public class LegalAgeEligibility {
 
 	public static void main(String[] args) throws ArithmeticException {
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Enter Your age : ");
+		System.out.println("Enter your age : ");
 
 		try {
 			int enterAge = scanner.nextInt();
 			if (enterAge <= 21) {
 				// If the condition is false, then an exception is thrown.
-				throw new YoungAge("You are not eligible for Marriage");
+				throw new UnderAgeException("You are not eligible for marriage");
 			} else {
-				System.out.println("You are eligible for Marriage");
+				System.out.println("You are eligible for marriage");
 			}
-		} catch (YoungAge underAge) {
+		} catch (UnderAgeException underAge) {
 			System.out.println(underAge); // Catch the exception
 		} catch (Exception e) {
 			System.out.println("Invalid input");

@@ -9,29 +9,29 @@ package com.myjavacode.encapsulation;
  * <h2>Created Student Data class</h2>
  * </p>
  * <ul>
- * <li><b>setStudentRollNo method : Set Student Roll Number</b></li>
- * <li><b>setStudentName method : Set Student Name</b></li>
+ * <li><b>setStudentRollNo method : Set student roll number</b></li>
+ * <li><b>setStudentName method : Set student name</b></li>
  * </ul>
  * 
  * @author Kartik
  */
 public class StudentData {
 
-	private int studentRollNo; // Created Private Variable
+	private int studentRollNo;
 	private String studentName;
 
 	public void setStudentRollNo(int studentRollNo) {
-		this.studentRollNo = studentRollNo; // Store value
+		this.studentRollNo = studentRollNo;
 	}
 
 	public void setStudentName(String studentName) {
-		this.studentName = studentName; // Store value
+		this.studentName = studentName;
 	}
 
-	// Created Method To display Data
+	// Created method to display data
 	public void displayData() {
-		System.out.println("Student name is : " + studentName);
-		System.out.println("Student rollNo is : " + studentRollNo);
+		System.out.println("Student name is " + studentName);
+		System.out.println("Student roll number is " + studentRollNo);
 	}
 
 }

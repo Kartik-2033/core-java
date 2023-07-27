@@ -3,15 +3,10 @@ package com.myjavacode.oopsconcepts;
 /**
  * <h3>Inheritance!</h3>
  * <p>
- * This Program About Multi-level Inheritance
+ * This program about 'Multi-level' inheritance
  * </p>
  * <p>
  * <h2>Created Grandfather class</h2>
- * <h4>Created Method</h4>
- * </p>
- * <ul>
- * <li><b>grandfatherMethod : Grand Father method</b></li>
- * </ul>
  * 
  * @author Kartik
  */
@@ -23,15 +18,7 @@ class Grandfather {
 
 }
 
-/**
- * <p>
- * <h2>Created Father class Inherited GrandFather class</h2>
- * <h4>Created Method</h4>
- * </p>
- * <ul>
- * <li><b>fatherMethod : Parent Base Method</b></li>
- * </ul>
- */
+// Created father class inherited 'GrandFather' class
 class FatherClass extends Grandfather {
 
 	void fatherMethod() {
@@ -40,15 +27,7 @@ class FatherClass extends Grandfather {
 
 }
 
-/**
- * <p>
- * <h2>Created Son class Inherited Father Class</h2>
- * <h4>Created Method</h4>
- * </p>
- * <ul>
- * <li><b>sonMethod : Son Method</b></li>
- * </ul>
- */
+// Created son class inherited 'Father' Class
 class SonClass extends FatherClass {
 
 	void sonMethod() {
@@ -59,12 +38,11 @@ class SonClass extends FatherClass {
 
 public class MultiLevelInheritance {
 
-	// created main method
 	public static void main(String args[]) {
-		SonClass showReltion = new SonClass(); // Created base Object
-		showReltion.grandfatherMethod(); // CallingSecond Grand father Class with base Object
-		showReltion.fatherMethod(); // Calling Parent Child Class with base Object
-		showReltion.sonMethod(); // Calling Son Child Class with base Object
+		SonClass showRelation = new SonClass(); // Created object
+		showRelation.grandfatherMethod(); // Calling grand father class with object
+		showRelation.fatherMethod(); // Calling parent child class with object
+		showRelation.sonMethod(); // Calling son child class with object
 	}
 
 }

@@ -1,4 +1,4 @@
-package com.myjavacode.filehandlingExtra;
+package com.myjavacode.filehandlingextra;
 
 import java.io.*;
 import java.util.Scanner;
@@ -23,7 +23,7 @@ public class DeleteFile {
 				System.out.println("File not Found.");
 			}
 			userInput.close();
-		} catch (Exception exeObj) {
+		} catch (Exception exception) {
 			System.out.println("An unexpected error is occurred. Sorry For inconvenience.");
 		}
 	}

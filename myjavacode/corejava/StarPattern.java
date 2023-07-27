@@ -4,11 +4,9 @@ package com.myjavacode.corejava;
  *
  * Print Star Pattern using for loop
  * 
- * @Note i for rows and j for columns row denotes the number of rows you want to
- *       print
+ * @Note i for rows and j for columns row denotes the number of rows you want to print
  * @author Kartik
  */
-
 class StarPattern {
 
 	public static void main(String[] args) {

@@ -5,11 +5,11 @@ package com.myjavacode.corejava;
  * 
  * @author Kartik
  */
-class OneToTen {
+class WhileAndDoWhileLoop {
 
 	// Printing numbers using while loop
 	static void whileLoop() {
-		System.out.println("Using While Loop");
+		System.out.println("Using while loop");
 		int start = 1;
 		while (start <= 10) {
 			System.out.println(start);
@@ -20,7 +20,7 @@ class OneToTen {
 	// Printing numbers using do while loop
 	static void doWhileLoop() {
 		System.out.println();
-		System.out.println("\nUsing Do While Loop");
+		System.out.println("\nUsing Do-While Loop");
 		int start = 1;
 		do {
 			System.out.println(start);

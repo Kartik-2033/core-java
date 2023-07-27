@@ -10,25 +10,24 @@ import java.util.Scanner;
  */
 public class WrapperClass {
 
-	// Creating Main Method
 	public static void main(String[] args) {
-		Scanner scannerObject = new Scanner(System.in); // For Input From User
+		Scanner scannerObject = new Scanner(System.in);
 
 		// Creating primitive variable and store value in primitiveVar
-		System.out.println("Enter the First Number => ");
-		int primitiveVar = scannerObject.nextInt(); // Store Value Store in primitives
+		System.out.println("Enter the first number => ");
+		int primitiveVar = scannerObject.nextInt();
 
 		// Creating primitive variable and store value in primitiveVar2
-		System.out.println("Enter the Second Number => ");
-		int primitiveVar2 = scannerObject.nextInt(); // Store Value Store in primitives
+		System.out.println("Enter the second number => ");
+		int primitiveVar2 = scannerObject.nextInt();
 
 		Integer wrapperVar = primitiveVar;
 		Integer wrapperVar1 = primitiveVar2;
 
 		if (wrapperVar == wrapperVar1) {
-			System.out.println("Both Are Same!");
+			System.out.println("Both numbers are same!");
 		} else {
-			System.out.println("Both Are Different!");
+			System.out.println("Both numbers are different!");
 		}
 		scannerObject.close();
 	}

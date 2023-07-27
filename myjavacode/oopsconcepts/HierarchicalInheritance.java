@@ -3,7 +3,7 @@ package com.myjavacode.oopsconcepts;
 /**
  * <h3>Inheritance!</h3>
  * <p>
- * This Program About Hierarchical Inheritance
+ * This program about hierarchical inheritance
  * </p>
  * 
  * @author Kartik
@@ -11,7 +11,7 @@ package com.myjavacode.oopsconcepts;
 class SonClass {
 
 	void sonMethod() {
-		System.out.println("He His My Son!!");
+		System.out.println("He his my son!");
 	}
 
 }
@@ -19,7 +19,7 @@ class SonClass {
 class FatherClass extends SonClass {
 
 	void fatherMethod() {
-		System.out.println("I am His Father!");
+		System.out.println("I am his father!");
 	}
 
 }
@@ -27,7 +27,7 @@ class FatherClass extends SonClass {
 class MotherClass extends SonClass {
 
 	void motherMethod() {
-		System.out.println("I am his Mother!");
+		System.out.println("I am his mother!");
 	}
 
 }
@@ -36,14 +36,14 @@ public class HierarchicalInheritance {
 
 	// Created main method
 	public static void main(String args[]) {
-		FatherClass fatherObject = new FatherClass(); // Created base Object For Father Class
-		MotherClass motherObject = new MotherClass(); // Created base Object For Mother Class
+		FatherClass fatherObject = new FatherClass(); // Created base object for father class
+		MotherClass motherObject = new MotherClass(); // Created base object for mother class
 
-		fatherObject.fatherMethod(); // Calling Father Class
-		fatherObject.sonMethod(); // Calling Son Class with Object Father
+		fatherObject.fatherMethod(); // Calling father class
+		fatherObject.sonMethod(); // Calling son class with object father
 
-		motherObject.motherMethod(); // Calling Mother class
-		motherObject.sonMethod(); // Calling Son Class with object Mother
+		motherObject.motherMethod(); // Calling mother class
+		motherObject.sonMethod(); // Calling son class with object Mother
 	}
 
 }

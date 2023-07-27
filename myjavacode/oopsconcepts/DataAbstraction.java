@@ -2,15 +2,15 @@ package com.myjavacode.oopsconcepts;
 
 /**
  * <p>
- * <h3>Data Abstraction!</h3>
+ * <h3>Data-Abstraction!</h3>
  * <p>
  * This program is designed to help you find the interest rates of two banks.
  * </p>
- * <h2>Created World bank class</h2>
+ * <h2>Created world bank class</h2>
  * </p>
  * <ul>
- * <li><b>SbiBank Class for Finding SBI Interest Rates.</b></li>
- * <li><b>AxisBank Class for Finding AXIS Interest Rate</b></li>
+ * <li><b>SbiBank class for finding SBI interest rates.</b></li>
+ * <li><b>AxisBank class for finding AXIS interest rate</b></li>
  * </ul>
  * 
  * @author Kartik
@@ -24,7 +24,7 @@ abstract class WorldBank {
 class SbiBank extends WorldBank {
 
 	void getInterestRate() {
-		System.out.println("SBI Interest Rate Is 9.8%.");
+		System.out.println("SBI interest rate is 9.8%.");
 	}
 
 }
@@ -32,7 +32,7 @@ class SbiBank extends WorldBank {
 class AxisBank extends WorldBank {
 
 	void getInterestRate() {
-		System.out.println("AXIS Interest Rate Is 10.1%.");
+		System.out.println("AXIS interest rate is 10.1%.");
 	}
 
 }
@@ -40,9 +40,9 @@ class AxisBank extends WorldBank {
 public class DataAbstraction {
 
 	public static void main(String[] args) {
-		WorldBank findRateSbi = new SbiBank(); // Creating Object To call SbiBank Class
+		WorldBank findRateSbi = new SbiBank(); // Creating object to call 'SbiBank' class
 		findRateSbi.getInterestRate();
-		WorldBank findRateAxis = new AxisBank(); // Creating Object To call AxisBank Class
+		WorldBank findRateAxis = new AxisBank(); // Creating object To call 'AxisBank' class
 		findRateAxis.getInterestRate();
 	}
 

@@ -6,13 +6,9 @@ package com.myjavacode.oopsconcepts;
  * This program is about run-time polymorphism. 
  * </p>
  * <p>
- * <h2>Created Parent class : Owner</h2>
- * <h4>Created Child Class</h4>
- * </p>
- * <ul>
- * <li><b>Employee : Same method name as owner class</b></li>
- * <li><b>StaffBoy : Same method name as owner class</b></li>
- * </ul>
+ * <h2>Created parent class : Owner</h2>
+ * <h4>Created first child class : Employee extends Owner class</h4>
+ * <h4>Created second child class : StaffBoy extends Owner class</h4>
  * 
  * @author Kartik
  */
@@ -37,14 +33,13 @@ class StaffBoy extends Owner {
 
 	@Override
 	public void jobRole() {
-		System.out.println("I am Staff boy of company!");
+		System.out.println("I am staff boy of company!");
 	}
 
 }
 
 class PolyMethodOverriding {
 
-	// Creating main method
 	public static void main(String args[]) {
 		new Owner().jobRole();
 		new Employee().jobRole();
