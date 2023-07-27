@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 /**
- * <h3>Finding index of array element.!</h3>
+ * <h3>Finding index of array element.</h3>
  * <p>
  * This program show how to find index of array element using Linear Search!
  * </p>
