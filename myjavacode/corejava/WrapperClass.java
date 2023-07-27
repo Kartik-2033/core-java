@@ -3,7 +3,8 @@ package com.myjavacode.corejava;
 import java.util.Scanner;
 
 /**
- * <h3>Wrapper Class</h3> Using Wrapper classes, compare two variables.
+ * <h3>Wrapper Class</h3> 
+ * Using Wrapper classes, compare two variables.
  * <p>
  * 
  * @author Kartik

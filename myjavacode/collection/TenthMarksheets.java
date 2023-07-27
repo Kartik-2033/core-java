@@ -6,8 +6,7 @@ import java.util.Map.Entry;
 /**
  * <h3>Collection-HashMap!</h3>
  * <p>
- * This program demonstrates the use of HashMap with a Student mark sheet
- * example.
+ * This program demonstrates the use of HashMap with a Student mark sheet example.
  * </p>
  * 
  * @author Kartik

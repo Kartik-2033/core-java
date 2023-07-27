@@ -3,10 +3,10 @@ package com.myjavacode.encapsulation;
 /**
  * <h3>Encapsulation!</h3>
  * <p>
- * This Program takes data from the 'MainData.java' file!
+ * This program takes data from the 'MainData.java' file!
  * </p>
  * <p>
- * <h2>Created Student Data class</h2>
+ * <h2>Created StudentData class</h2>
  * </p>
  * <ul>
  * <li><b>setStudentRollNo method : Set student roll number</b></li>

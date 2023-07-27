@@ -3,8 +3,7 @@ package com.myjavacode.corejava;
 import java.util.Scanner;
 
 /**
- * <h3>EMI Calculate In Java</h3> The program calculates the monthly
- * installment!
+ * <h3>EMI Calculate In Java</h3> The program calculates the monthly installment!
  * <p>
  * 
  * @author Kartik

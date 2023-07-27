@@ -3,7 +3,7 @@ package com.myjavacode.corejava;
 import java.math.BigDecimal; //Import Package
 
 /**
- * <h3>Wrapper Class</h3>
+ * <h3>Wrapper class</h3>
  * <p>
  * The following program compares wrapper classes such as :
  * </p>

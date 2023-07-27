@@ -3,7 +3,7 @@ package com.myjavacode.exceptionhandling;
 import java.util.Scanner;
 
 /**
- * <h3>Exception Handling!</h3>
+ * <h3>Exception handling!</h3>
  * <p>
  * This program demonstrates how to handle exceptions using try, catch, finally,
  * and throw statements.

@@ -1,7 +1,7 @@
 package com.myjavacode.corejava;
 
 /**
- * print numbers 1 to 10 using the While loop and do-while loop
+ * Print numbers 1 to 10 using the While loop and do-while loop
  * 
  * @author Kartik
  */

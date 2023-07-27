@@ -3,13 +3,13 @@ package com.myjavacode.collection;
 import java.util.*;
 
 /**
- * <h3>Comparable-Comparator Interface!</h3>
+ * <h3>Comparable-Comparator interface!</h3>
  * <p>
  * This Program shows how to sort data using comparable & comparator!
  * </p>
  * <h3>StudentData Class!</h3>
  * <p>
- * This Class implements Comparable<StudentData> Interface!
+ * This Class implements Comparable<StudentData> interface!
  * </p>
  * 
  * @author Kartik

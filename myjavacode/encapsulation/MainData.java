@@ -3,7 +3,7 @@ package com.myjavacode.encapsulation;
 /**
  * <h3>Encapsulation!</h3>
  * <p>
- * This Program Passing Data To 'StudentData.java' File !
+ * This program passing data to 'StudentData.java' file !
  * </p>
  * 
  * @author Kartik

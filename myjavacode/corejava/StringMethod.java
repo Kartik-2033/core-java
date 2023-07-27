@@ -3,7 +3,7 @@ package com.myjavacode.corejava;
 import java.util.Scanner;
 
 /**
- * Write a program to show use of String method
+ * Write a program to show use of 'String' method
  * 
  * @author Kartik
  */
