@@ -18,9 +18,9 @@ import java.util.Scanner;
 public class FileInfo {
 
 	public static void main(String[] args) {
-		Scanner userInput = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter absolute path of the file :");
-		String filePath = userInput.next();
+		String filePath = scanner.next();
 		File infoFile = new File(filePath);
 
 		// Check file exist or not
@@ -29,14 +29,14 @@ public class FileInfo {
 			System.out.println("The absolute path of the file is : " + infoFile.getAbsolutePath());
 
 			// Check whether the file is writable or not
-			if (infoFile.canWrite() == true) {
+			if (infoFile.canWrite()) {
 				System.out.println((infoFile.getName()) + " is writable.");
 			} else {
 				System.out.println((infoFile.getName()) + " is not writable.");
 			}
 
 			// Check whether the file is readable or not
-			if (infoFile.canRead() == true) {
+			if (infoFile.canRead()) {
 				System.out.println((infoFile.getName()) + " is readable.");
 			} else {
 				System.out.println((infoFile.getName()) + " is not readable.");
@@ -47,7 +47,7 @@ public class FileInfo {
 		} else {
 			System.out.println("File doesn't exist.");
 		}
-		userInput.close();
+		scanner.close();
 	}
 
 }

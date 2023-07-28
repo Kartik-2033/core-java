@@ -17,22 +17,22 @@ public class CreateAndInputFile {
 		int userAge;
 
 		try {
-			Scanner userInput = new Scanner(System.in);
+			Scanner scanner = new Scanner(System.in);
 			System.out.println("Enter file name : ");
-			fileName = userInput.next();
+			fileName = scanner.next();
 
 			System.out.println("For example : Path = D:/(Folder name)");
 			System.out.println("Enter file path : ");
-			filePath = userInput.next();
+			filePath = scanner.next();
 
 			System.out.println("Enter your name : ");
-			userName = userInput.next();
+			userName = scanner.next();
 
 			System.out.println("Enter your age : ");
-			userAge = userInput.nextInt();
+			userAge = scanner.nextInt();
 
 			System.out.println("Enter your email-id : ");
-			userEmail = userInput.next();
+			userEmail = scanner.next();
 			// Create an object of a File
 			File createFile = new File(filePath + "/" + fileName + ".txt");
 
@@ -53,7 +53,7 @@ public class CreateAndInputFile {
 			} else {
 				System.out.println("File does not exist in location.");
 			}
-			userInput.close();
+			scanner.close();
 		} catch (IOException exception) {
 			System.out.println("An unexpected error is occurred");
 			exception.printStackTrace();

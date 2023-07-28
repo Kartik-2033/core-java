@@ -12,10 +12,10 @@ import java.util.Scanner;
 public class ReadFile {
 
 	public static void main(String[] args) {
-		Scanner userInput = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in);
 
 		System.out.println("Enter absolute path of the file : ");
-		String filePath = userInput.next();
+		String filePath = scanner.next();
 
 		// Create file object
 		File infoFile = new File(filePath);
@@ -34,7 +34,7 @@ public class ReadFile {
 		} catch (Exception exception) {
 			System.out.println("An unexpected error is occurred. Sorry for inconvenience.");
 		}
-		userInput.close();
+		scanner.close();
 	}
 
 }

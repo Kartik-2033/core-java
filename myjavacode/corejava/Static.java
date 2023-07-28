@@ -12,7 +12,7 @@ public class Static {
 	static int staticVar2;
 
 	// Create static method
-	static void staticMethod(int staticVar3) {
+	static void staticMethod (int staticVar3) {
 		System.out.println("Static method initialise.");
 		System.out.println("First variable = " + staticVar1);
 		System.out.println("Second variable = " + staticVar2);

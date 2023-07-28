@@ -13,9 +13,9 @@ public class WriteDataInFile {
 
 	public static void main(String[] args) {
 		try {
-			Scanner userInput = new Scanner(System.in);
+			Scanner scanner = new Scanner(System.in);
 			System.out.println("Enter absolute path of the file :");
-			String filePath = userInput.next();
+			String filePath = scanner.next();
 			// Create an object of a file
 			File infoFile = new File(filePath);
 
@@ -25,7 +25,7 @@ public class WriteDataInFile {
 				FileWriter writerObject = new FileWriter(filePath);
 				writerObject.write("Hello my name is kartik.");
 				writerObject.close();
-				userInput.close();
+				scanner.close();
 				System.out.println("The content has been successfully added to the file.");
 			} else {
 				System.out.println("File does not exist in location.");

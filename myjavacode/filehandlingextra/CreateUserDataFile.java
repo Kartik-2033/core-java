@@ -15,14 +15,14 @@ public class CreateUserDataFile {
 		String filePath = "", fileName = "";
 
 		try {
-			Scanner userInput = new Scanner(System.in);
+			Scanner scanner = new Scanner(System.in);
 
 			System.out.println("Enter file name : ");
-			fileName = userInput.next();
+			fileName = scanner.next();
 
 			System.out.println("Enter file path : ");
 			System.out.println("For example : Path = D:/(Folder name)");
-			filePath = userInput.next();
+			filePath = scanner.next();
 
 			// Create an object of a file
 			File createFile = new File(filePath + "/" + fileName + ".txt");
@@ -33,7 +33,7 @@ public class CreateUserDataFile {
 			} else {
 				System.out.println("File already exist in directory.");
 			}
-			userInput.close();
+			scanner.close();
 		} catch (IOException exception) {
 			System.out.println("An unexpected error is occurred");
 			exception.printStackTrace();

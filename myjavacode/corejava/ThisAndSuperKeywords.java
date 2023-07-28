@@ -13,21 +13,21 @@ class SuperClass {
 
 }
 
-class ThisAndSuperVariable extends SuperClass {
+class ThisAndSuperKeywords extends SuperClass {
 
 	void printData() {
-		System.out.println("ThisSuperVariable class called.");
+		System.out.println("ThisAndSuperKeywords class called.");
 	}
 
 	void callMethods() {
-		// 'this' invokes current class "ThisSuperVariable".
+		// 'this' invokes current class "ThisAndSuperKeywords".
 		this.printData();
 		// 'super' invokes parent class "SuperClass".
 		super.printData();
 	}
 
 	public static void main(String[] args) {
-		ThisSuperVariable thisSuperVariable = new ThisSuperVariable();
+		ThisAndSuperKeywords thisSuperVariable = new ThisAndSuperKeywords();
 		thisSuperVariable.callMethods();
 	}
 
