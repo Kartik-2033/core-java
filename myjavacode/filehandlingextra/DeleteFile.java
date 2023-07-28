@@ -20,11 +20,11 @@ public class DeleteFile {
 			if (deleteFile.delete()) {
 				System.out.println((deleteFile.getName()) + " file is deleted successfully");
 			} else {
-				System.out.println("File not Found.");
+				System.out.println("File not found.");
 			}
 			userInput.close();
 		} catch (Exception exception) {
-			System.out.println("An unexpected error is occurred. Sorry For inconvenience.");
+			System.out.println("An unexpected error is occurred. Sorry for inconvenience.");
 		}
 	}
 

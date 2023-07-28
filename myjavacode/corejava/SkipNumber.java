@@ -2,8 +2,8 @@ package com.myjavacode.corejava;
 
 /**
  *
- * Print 1 to 10 numbers using a loop and stop the execution after 7 numbers and
- * skip 5 number using 'Break/Continue'.
+ * Print numbers 1 to 10 using a loop, then the execution stops after 7
+ * numbers, and also skipped number 5 using 'Break/Continue'.
  * 
  * @author Kartik
  */

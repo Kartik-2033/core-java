@@ -3,10 +3,10 @@ package com.myjavacode.interface;
 /**
  * <h3>Interface!</h3>
  * <p>
- * provide a real-life example to understand the interface.
+ * Provide a real-life example to understand the interface.
  * </p>
  * <p>
- * This program show how user can buy anything from his credit card!
+ * This program shows how users can buy anything from their credit card!
  * </p>
  * <h3>VaseShop interface!</h3>
  * <p>

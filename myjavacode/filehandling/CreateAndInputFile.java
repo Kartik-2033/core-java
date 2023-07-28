@@ -33,7 +33,7 @@ public class CreateAndInputFile {
 
 			System.out.println("Enter your email-id : ");
 			userEmail = userInput.next();
-			// Creating an object of a File
+			// Create an object of a File
 			File createFile = new File(filePath + "/" + fileName + ".txt");
 
 			// Check Condition If file is create or not
@@ -43,9 +43,9 @@ public class CreateAndInputFile {
 				System.out.println("File is already exist in directory.");
 			}
 
-			// Checking file exist or not
+			// Check file exist or not
 			if (createFile.exists()) {
-				// Creating FileWriter object to write in file
+				// Create FileWriter object to write in file
 				FileWriter writerObject = new FileWriter(filePath + "/" + fileName + ".txt");
 				writerObject.write("Name : " + userName + "\nAge : " + userAge + "\nEmail : " + userEmail);
 				writerObject.close();
@@ -58,7 +58,7 @@ public class CreateAndInputFile {
 			System.out.println("An unexpected error is occurred");
 			exception.printStackTrace();
 		} catch (Exception exception) {
-			System.out.println("An unexpected error is occurred. Sorry For inconvenience.");
+			System.out.println("An unexpected error is occurred. Sorry for inconvenience.");
 		}
 	}
 

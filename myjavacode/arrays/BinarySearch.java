@@ -6,10 +6,10 @@ import java.util.Scanner;
 /**
  * <h3>Finding index of array element.</h3>
  * <p>
- * This program shows how to find an index of an array element using Binary search
+ * This program shows how to find an index of an array element using binary search
  * </p>
  * <p>
- * <b>Note</b>: Binary search only works if an array element is sorted
+ * <b>Note</b> : Binary search only works if an array element is sorted
  * </p>
  * 
  * @param myArray
@@ -29,7 +29,7 @@ public class BinarySearch {
 		System.out.println("Array : " + Arrays.toString(myArray));
 
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Enter Your Element : ");
+		System.out.println("Enter your element : ");
 		int enterElement = scanner.nextInt();
 
 		System.out.println("Index position of " + enterElement + " is " + findIndex(myArray, enterElement));

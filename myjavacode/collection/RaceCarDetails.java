@@ -14,10 +14,10 @@ import java.util.HashSet;
 public class RaceCarDetails {
 
 	public static void main(String[] args) {
-		// Creating empty 'raceCar' list
+		// Create empty 'raceCar' list
 		HashSet<String> raceCar = new HashSet<String>();
 
-		// Adding basic parts to race car
+		// Add basic parts to race car
 		raceCar.add("Engine");
 		raceCar.add("Turbo");
 		raceCar.add("Tires");
@@ -38,7 +38,7 @@ public class RaceCarDetails {
 		System.err.println("Check race car is empty : " + raceCar.isEmpty());
 
 		// Size of list
-		System.err.println("Parts added in race car : " + raceCar.size());
+		System.err.println("The race car has " + raceCar.size() + " parts.");
 	}
 
 }

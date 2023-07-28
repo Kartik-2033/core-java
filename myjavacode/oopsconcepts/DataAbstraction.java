@@ -6,7 +6,7 @@ package com.myjavacode.oopsconcepts;
  * <p>
  * This program is designed to help you find the interest rates of two banks.
  * </p>
- * <h2>Created world bank class</h2>
+ * <h2>Create world bank class</h2>
  * </p>
  * <ul>
  * <li><b>SbiBank class for finding SBI interest rates.</b></li>
@@ -40,9 +40,9 @@ class AxisBank extends WorldBank {
 public class DataAbstraction {
 
 	public static void main(String[] args) {
-		WorldBank findRateSbi = new SbiBank(); // Creating object to call 'SbiBank' class
+		WorldBank findRateSbi = new SbiBank(); // Create object to call 'SbiBank' class
 		findRateSbi.getInterestRate();
-		WorldBank findRateAxis = new AxisBank(); // Creating object To call 'AxisBank' class
+		WorldBank findRateAxis = new AxisBank(); // Create object to call 'AxisBank' class
 		findRateAxis.getInterestRate();
 	}
 

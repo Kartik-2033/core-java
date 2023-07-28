@@ -14,10 +14,10 @@ class StarPattern {
 		for (int i = 0; i < 5; i++) {
 			// Inner loop for columns
 			for (int j = 0; j <= i; j++) {
-				// Prints stars
+				// Print stars
 				System.out.print("* ");
 			}
-			// Print New Line
+			// Print new line
 			System.out.println();
 		}
 	}

@@ -1,7 +1,7 @@
 package com.myjavacode.corejava;
 
 /**
- * Write a program to print "Hello world!"
+ * Write a program to print "Hello World!"
  * 
  * @author Kartik
  */

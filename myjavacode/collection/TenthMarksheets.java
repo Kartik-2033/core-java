@@ -22,16 +22,16 @@ public class TenthMarksheets {
 		studentSheet.put("obtainMarks", 628);
 		studentSheet.put("firstClass", 0);
 
-		// Display Student data
+		// Display student data
 		System.out.println("Student enrollment number : " + studentSheet.get("enrollNo"));
 		System.out.println("Student obtain marks : " + studentSheet.get("obtainMarks"));
 		System.out.println("Student pass with first class : " + studentSheet.containsValue(0));
 		System.out.println("Check student marksheet is empty : " + studentSheet.isEmpty());
 
-		// Finding key of provided value
+		// Find key of provided value
 		for (Entry<String, Integer> startPoint : studentSheet.entrySet()) {
 			if (startPoint.getValue() == 700) {
-				System.out.println("The Key Of 700 is : " + startPoint.getKey());
+				System.out.println("The key of 700 is : " + startPoint.getKey());
 			}
 		}
 	}

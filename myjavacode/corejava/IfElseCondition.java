@@ -3,9 +3,9 @@ package com.myjavacode.corejava;
 import java.util.Scanner;
 
 /**
- * <h3>Check Age!</h3>
+ * <h3>If-else condition</h3>
  * <p>
- * This Program shows whether you are above 18 or not.
+ * This program shows whether you are above 18 or not.
  * </p>
  * 
  * @author Kartik

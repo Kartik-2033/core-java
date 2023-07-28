@@ -5,13 +5,13 @@ import java.util.Scanner;
 
 /**
  * <p>
- * This program demonstrates how to create a file
+ * This program demonstrates how to create a file.
  * 
  * @author Kartik
  */
 public class CreateUserDataFile {
 
-	public void CreateFile() {
+	public void createFile() {
 		String filePath = "", fileName = "";
 
 		try {
@@ -24,7 +24,7 @@ public class CreateUserDataFile {
 			System.out.println("For example : Path = D:/(Folder name)");
 			filePath = userInput.next();
 
-			// Creating an object of a file
+			// Create an object of a file
 			File createFile = new File(filePath + "/" + fileName + ".txt");
 
 			// Make condition if file is create or not
@@ -38,13 +38,13 @@ public class CreateUserDataFile {
 			System.out.println("An unexpected error is occurred");
 			exception.printStackTrace();
 		} catch (Exception exception) {
-			System.out.println("An unexpected error is occurred. Sorry For inconvenience.");
+			System.out.println("An unexpected error is occurred. Sorry for inconvenience.");
 		}
 	}
 
 	public static void main(String[] args) {
 		CreateUserDataFile userRegister = new CreateUserDataFile();
-		userRegister.CreateFile();
+		userRegister.createFile();
 	}
 
 }

@@ -6,32 +6,32 @@ package com.myjavacode.oopsconcepts;
  * This program about 'Multi-level' inheritance
  * </p>
  * <p>
- * <h2>Created Grandfather class</h2>
+ * <h2>Create Grandfather class</h2>
  * 
  * @author Kartik
  */
 class Grandfather {
 
 	void grandfatherMethod() {
-		System.out.println("I am thier Grand father!");
+		System.out.println("I am thier Grandfather!");
 	}
 
 }
 
-// Created father class inherited 'GrandFather' class
+// Create father class inherited 'GrandFather' class
 class FatherClass extends Grandfather {
 
 	void fatherMethod() {
-		System.out.println("He is My Son!");
+		System.out.println("He is my son!");
 	}
 
 }
 
-// Created son class inherited 'Father' Class
+// Create son class inherited 'Father' class
 class SonClass extends FatherClass {
 
 	void sonMethod() {
-		System.out.println("He is My Garnd Son!");
+		System.out.println("He is my Grandson.");
 	}
 
 }
@@ -39,10 +39,10 @@ class SonClass extends FatherClass {
 public class MultiLevelInheritance {
 
 	public static void main(String args[]) {
-		SonClass showRelation = new SonClass(); // Created object
-		showRelation.grandfatherMethod(); // Calling grand father class with object
-		showRelation.fatherMethod(); // Calling parent child class with object
-		showRelation.sonMethod(); // Calling son child class with object
+		SonClass showRelation = new SonClass(); // Create object
+		showRelation.grandfatherMethod(); // Call grand father class with object
+		showRelation.fatherMethod(); // Call parent child class with object
+		showRelation.sonMethod(); // Call son child class with object
 	}
 
 }

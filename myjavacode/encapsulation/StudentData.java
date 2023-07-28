@@ -6,11 +6,11 @@ package com.myjavacode.encapsulation;
  * This program takes data from the 'MainData.java' file!
  * </p>
  * <p>
- * <h2>Created StudentData class</h2>
+ * <h2>Create 'StudentData' class</h2>
  * </p>
  * <ul>
- * <li><b>setStudentRollNo method : Set student roll number</b></li>
- * <li><b>setStudentName method : Set student name</b></li>
+ * <li><b>'setStudentRollNo' method : Set student roll number</b></li>
+ * <li><b>'setStudentName' method : Set student name</b></li>
  * </ul>
  * 
  * @author Kartik
@@ -28,7 +28,7 @@ public class StudentData {
 		this.studentName = studentName;
 	}
 
-	// Created method to display data
+	// Create method to display data
 	public void displayData() {
 		System.out.println("Student name is " + studentName);
 		System.out.println("Student roll number is " + studentRollNo);

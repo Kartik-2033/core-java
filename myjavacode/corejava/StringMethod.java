@@ -11,11 +11,11 @@ public class StringMethod {
 
 	public static void main(String[] args) {
 		Scanner stringScanner = new Scanner(System.in);
-		// Taking the first name of the user and storing it in firstName
+		// Take the first name of the user and storing it in firstName
 		System.out.println("Enter the first name : ");
 		String firstName = stringScanner.next();
 
-		// Taking the last name of the user and storing it in lastName
+		// Take the last name of the user and storing it in lastName
 		System.out.println("Enter the last name : ");
 		String lastName = stringScanner.next();
 

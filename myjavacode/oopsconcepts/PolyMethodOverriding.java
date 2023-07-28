@@ -1,21 +1,21 @@
 package com.myjavacode.oopsconcepts;
 
 /**
- * <h3>Polymorphism-Method Overriding</h3>
+ * <h3>Polymorphism-Method overriding</h3>
  * <p>
  * This program is about run-time polymorphism. 
  * </p>
  * <p>
- * <h2>Created parent class : Owner</h2>
- * <h4>Created first child class : Employee extends Owner class</h4>
- * <h4>Created second child class : StaffBoy extends Owner class</h4>
+ * <h2>Create parent class : Owner</h2>
+ * <h4>Create first child class : Employee extends Owner class</h4>
+ * <h4>Create second child class : StaffBoy extends Owner class</h4>
  * 
  * @author Kartik
  */
 class Owner {
 
 	public void jobRole() {
-		System.out.println("I am owner Of company!");
+		System.out.println("I am owner of company!");
 	}
 
 }

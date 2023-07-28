@@ -17,11 +17,11 @@ public class ReadFile {
 		System.out.println("Enter absolute path of the file : ");
 		String filePath = userInput.next();
 
-		// Creating file object
+		// Create file object
 		File infoFile = new File(filePath);
 
 		try {
-			// Creating object to read data from file
+			// Create object to read data from file
 			Scanner fileReader = new Scanner(infoFile);
 			while (fileReader.hasNextLine()) {
 				String fileData = fileReader.nextLine();
@@ -32,7 +32,7 @@ public class ReadFile {
 			System.out.println("File is not found.");
 			exception.printStackTrace();
 		} catch (Exception exception) {
-			System.out.println("An unexpected error is occurred. Sorry For inconvenience.");
+			System.out.println("An unexpected error is occurred. Sorry for inconvenience.");
 		}
 		userInput.close();
 	}

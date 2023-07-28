@@ -6,8 +6,8 @@ package com.myjavacode.oopsconcepts;
  * This program about single inheritance
  * </p>
  * <p>
- * <h2>Created Parent class : Father class</h2>
- * <h2>Created child class : Son class extends father class</h2>
+ * <h2>Create parent class : Father class</h2>
+ * <h2>Create child class : Son class extends father class</h2>
  * 
  * @author Kartik
  */
@@ -22,7 +22,7 @@ class FatherClass {
 class SonClass extends FatherClass {
 
 	void sonMethod() {
-		System.out.println("He is my Son!");
+		System.out.println("He is my son!");
 	}
 
 }

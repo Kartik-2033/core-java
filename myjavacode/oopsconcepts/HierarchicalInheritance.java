@@ -34,16 +34,15 @@ class MotherClass extends SonClass {
 
 public class HierarchicalInheritance {
 
-	// Created main method
 	public static void main(String args[]) {
-		FatherClass fatherObject = new FatherClass(); // Created base object for father class
-		MotherClass motherObject = new MotherClass(); // Created base object for mother class
+		FatherClass fatherObject = new FatherClass(); // Create base object for father class
+		MotherClass motherObject = new MotherClass(); // Create base object for mother class
 
-		fatherObject.fatherMethod(); // Calling father class
-		fatherObject.sonMethod(); // Calling son class with object father
+		fatherObject.fatherMethod(); // Call father class
+		fatherObject.sonMethod(); // Call son class with object father
 
-		motherObject.motherMethod(); // Calling mother class
-		motherObject.sonMethod(); // Calling son class with object Mother
+		motherObject.motherMethod(); // Call mother class
+		motherObject.sonMethod(); // Call son class with object Mother
 	}
 
 }

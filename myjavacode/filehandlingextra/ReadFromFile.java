@@ -15,11 +15,11 @@ public class ReadFromFile {
 		Scanner userInput = new Scanner(System.in);
 		System.out.println("Enter absolute path of the file :");
 		String filePath = userInput.next();
-		// Creating file object
+		// Create file object
 		File infoFile = new File(filePath);
 
 		try {
-			// Creating object to read data from file
+			// Create object to read data from file
 			Scanner fileReader = new Scanner(infoFile);
 			while (fileReader.hasNextLine()) {
 				String fileData = fileReader.nextLine();
@@ -27,10 +27,10 @@ public class ReadFromFile {
 			}
 			fileReader.close();
 		} catch (FileNotFoundException exception) {
-			System.out.println("File Not Found.");
+			System.out.println("File not found.");
 			exception.printStackTrace();
 		} catch (Exception exception) {
-			System.out.println("An unexpected error is occurred. Sorry For inconvenience.");
+			System.out.println("An unexpected error is occurred. Sorry for inconvenience.");
 		}
 		userInput.close();
 	}

@@ -3,8 +3,8 @@ package com.myjavacode.corejava;
 /**
  * <b>
  * <p>
- * This program shows how to calculate the sum of two numbers using a Default
- * constructor And Parameterized constructor.
+ * This program shows how to calculate the sum of two numbers using a default
+ * constructor And parameterized constructor.
  * </p>
  * </b>
  * 
@@ -24,7 +24,7 @@ class Constructor {
 	// Parameterized constructor created
 	Constructor(int number1, int number2) {
 		System.out.println("Paramerterized constuctor is called");
-		System.out.println("Sum Of Two Number " + (number1 + number2));
+		System.out.println("Sum of two number " + (number1 + number2));
 	}
 
 	public static void main(String[] args) {

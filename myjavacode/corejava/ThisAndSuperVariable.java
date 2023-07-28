@@ -26,7 +26,6 @@ class ThisAndSuperVariable extends SuperClass {
 		super.printData();
 	}
 
-	// Creating main method
 	public static void main(String[] args) {
 		ThisSuperVariable thisSuperVariable = new ThisSuperVariable();
 		thisSuperVariable.callMethods();

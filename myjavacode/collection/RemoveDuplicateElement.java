@@ -16,10 +16,10 @@ import java.util.Set;
 public class RemoveDuplicateElement {
 
 	public static void main(String[] args) {
-		// 'list' : Creating empty list to store data
+		// 'list' : Create empty list to store data
 		List<String> list = new ArrayList<String>();
 
-		// Adding values in list.
+		// Add values in list.
 		list.add("A");
 		list.add("B");
 		list.add("C");

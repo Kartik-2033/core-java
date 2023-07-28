@@ -1,6 +1,6 @@
 package com.myjavacode.corejava;
 
-import java.math.BigDecimal; //Import Package
+import java.math.BigDecimal;
 
 /**
  * <h3>Wrapper class</h3>
@@ -18,15 +18,15 @@ import java.math.BigDecimal; //Import Package
 class Comparison {
 
 	public static void main(String[] args) {
-		// Creating two BigDecimal variables
+		// Create two 'BigDecimal' variables
 		BigDecimal varBigDecimal1 = new BigDecimal(265321265);
 		BigDecimal varBigDecimal2 = new BigDecimal(2653265);
 
-		// Creating two Integer variables
+		// Create two 'Integer' variables
 		Integer varInteger2 = 10;
 		Integer varInteger1 = 10;
 
-		// Creating two String variables
+		// Create two 'String' variables
 		String varString1 = "Kartik";
 		String varString2 = "Kartik";
 

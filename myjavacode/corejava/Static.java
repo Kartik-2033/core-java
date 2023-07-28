@@ -7,11 +7,11 @@ package com.myjavacode.corejava;
  */
 public class Static {
 
-	// Created Static Variables
+	// Create static variables
 	static int staticVar1 = 10;
 	static int staticVar2;
 
-	// Created Static Method
+	// Create static method
 	static void staticMethod(int staticVar3) {
 		System.out.println("Static method initialise.");
 		System.out.println("First variable = " + staticVar1);
@@ -19,7 +19,7 @@ public class Static {
 		System.out.println("Third variable = " + staticVar3);
 	}
 
-	// Created Static Block
+	// Create static block
 	static {
 		System.out.println("Static block initialise.");
 		staticVar2 = staticVar1 + 5;

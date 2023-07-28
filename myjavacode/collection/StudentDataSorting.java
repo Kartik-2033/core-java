@@ -5,18 +5,18 @@ import java.util.*;
 /**
  * <h3>Comparable-Comparator interface!</h3>
  * <p>
- * This Program shows how to sort data using comparable & comparator!
+ * This program shows how to sort data using comparable & comparator!
  * </p>
- * <h3>StudentData Class!</h3>
+ * <h3>StudentData class!</h3>
  * <p>
- * This Class implements Comparable<StudentData> interface!
+ * This class implements Comparable<StudentData> interface!
  * </p>
  * 
  * @author Kartik
  */
 class StudentData implements Comparable<StudentData> {
 
-	// Creating two local variable
+	// Create two local variable
 	String studentName;
 	int studentAge;
 
@@ -61,15 +61,15 @@ public class StudentDataSorting {
 		for (StudentData student : studentList)
 			System.out.println("Student name : " + (student.getName()) + ", Age : " + (student.studentAge));
 
-		// Sorting data using Comparable
+		// Sort data using Comparable
 		System.out.println("\n: Data sorting according to students age(ASC) :");
 		Collections.sort(studentList);
 		for (StudentData student : studentList)
 			System.out.println("Student name : " + (student.getName()) + ", Age : " + (student.studentAge));
 
-		// Sorting data using Comparator
+		// Sort data using Comparator
 		System.out.println("\n: Data sorting according to students name(ASC) :");
-		// Created Comparator object
+		// Create Comparator object
 		NameComparator comObj = new NameComparator();
 		Collections.sort(studentList, comObj);
 		for (StudentData student : studentList)

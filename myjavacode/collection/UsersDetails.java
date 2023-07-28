@@ -7,8 +7,8 @@ import java.util.Scanner;
 /**
  * <h3>Collection-ArrayList!</h3>
  * <p>
- * This Program shows how to add string Values like (Your first name, middle
- * name & last name) in ArrayList.
+ * This program shows how to add string Values like (your first name, middle
+ * name & last name) in 'ArrayList'.
  * </p>
  * 
  * @author Kartik
@@ -16,7 +16,7 @@ import java.util.Scanner;
 public class UsersDetails {
 
 	public static void main(String[] args) {
-		// 'userDetailsList' : Creating empty ArrayList to store data
+		// 'userDetailsList' : Create empty ArrayList to store data
 		ArrayList<String> userDetailsList = new ArrayList<String>();
 
 		Scanner scanner = new Scanner(System.in);
@@ -37,7 +37,6 @@ public class UsersDetails {
 		userDetailsList.add(userLastName);
 
 		System.out.println("Data added in list : " + userDetailsList);
-		// System.out.println(userDetailsList);
 		Iterator<String> printUserDetails = userDetailsList.iterator();
 
 		while (printUserDetails.hasNext()) {

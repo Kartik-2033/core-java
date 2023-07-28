@@ -7,7 +7,7 @@ package com.myjavacode.corejava;
  */
 class WhileAndDoWhileLoop {
 
-	// Printing numbers using while loop
+	// Print numbers using while loop
 	static void whileLoop() {
 		System.out.println("Using while loop");
 		int start = 1;
@@ -17,7 +17,7 @@ class WhileAndDoWhileLoop {
 		}
 	}
 
-	// Printing numbers using do while loop
+	// Print numbers using do while loop
 	static void doWhileLoop() {
 		System.out.println();
 		System.out.println("\nUsing do-while loop");
