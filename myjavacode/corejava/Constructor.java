@@ -4,7 +4,7 @@ package com.myjavacode.corejava;
  * <b>
  * <p>
  * This program shows how to calculate the sum of two numbers using a default
- * constructor And parameterized constructor.
+ * constructor and parameterized constructor.
  * </p>
  * </b>
  * 
